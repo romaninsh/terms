@@ -4,8 +4,49 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "32ff6b7f9beb33d7c5a120590020560e",
+    "hash": "3c663532a42cc3337123ca7497a6fe49",
     "packages": [
+        {
+            "name": "agile55/ga",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agile55/ga.git",
+                "reference": "d7509c8817a3de21cf891370378d0ad299096010"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agile55/ga/zipball/d7509c8817a3de21cf891370378d0ad299096010",
+                "reference": "d7509c8817a3de21cf891370378d0ad299096010",
+                "shasum": ""
+            },
+            "require": {
+                "atk4/atk4": ">=4.2",
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "agile55\\ga": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Romans Malinovskis",
+                    "email": "romans@agiletoolkit.org"
+                }
+            ],
+            "description": "Google Analytics for Agile Toolkit",
+            "homepage": "http://github.com/agile55/ga",
+            "keywords": [
+                "atk4"
+            ],
+            "time": "2014-03-06 16:37:45"
+        },
         {
             "name": "atk4/atk4",
             "version": "4.3.x-dev",
@@ -35,14 +76,15 @@
                 "atk4",
                 "framework"
             ],
-            "time": "2014-07-08 12:03:05"
+            "time": "2014-07-16 15:50:40"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "atk4/atk4": 20
+        "atk4/atk4": 20,
+        "agile55/ga": 20
     },
     "platform": [],
     "platform-dev": []

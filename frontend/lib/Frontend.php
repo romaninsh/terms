@@ -6,6 +6,8 @@ class Frontend extends ApiFrontend {
         $this->add('Layout_Basic',null,null,['layout/nearly-guru']);
         $this->add('jUI');
 
+        $this->add('agile55/ga/Controller_Tracker');
+
         $dialog = $this->layout->add('View_Popover');
         $this->on('click','.do-tooltip',$dialog->showJS());
 
