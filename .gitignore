@@ -1,0 +1,6 @@
+/old
+/run.*
+/vendor
+/agiletoolkit-css
+*.phar
+/config-auto.php
