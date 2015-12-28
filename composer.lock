@@ -1,10 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3c663532a42cc3337123ca7497a6fe49",
+    "hash": "530b915b4e7ed3da39af8e6889a84bd8",
+    "content-hash": "006ad87537fe87dfb50a689a7fc8983c",
     "packages": [
         {
             "name": "agile55/ga",
@@ -53,13 +54,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/atk4/atk4.git",
-                "reference": "origin/4.3"
+                "reference": "7c78a416a40084e983906ecc99b5cc97befda0a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://agiletoolkit.org/distfiles/agiletoolkit-4.2.4.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://api.github.com/repos/atk4/atk4/zipball/7c78a416a40084e983906ecc99b5cc97befda0a9",
+                "reference": "7c78a416a40084e983906ecc99b5cc97befda0a9",
+                "shasum": ""
             },
             "type": "library",
             "autoload": {
@@ -71,12 +72,137 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "homepage": "https://agiletoolkit.org/",
             "keywords": [
                 "atk4",
                 "framework"
             ],
-            "time": "2014-07-16 15:50:40"
+            "time": "2015-06-30 11:06:22"
+        },
+        {
+            "name": "educoder/pest",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/educoder/pest.git",
+                "reference": "7c4d24d6aafc4ebac711c73cc8797d9b1779525b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/educoder/pest/zipball/7c4d24d6aafc4ebac711c73cc8797d9b1779525b",
+                "reference": "7c4d24d6aafc4ebac711c73cc8797d9b1779525b",
+                "shasum": ""
+            },
+            "require": {
+                "lib-curl": "*",
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    ""
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Zukowski",
+                    "email": "matt@zukowski.ca"
+                },
+                {
+                    "name": "Donald Sipe",
+                    "email": "donald.sipe@gmail.com"
+                }
+            ],
+            "description": "A proper REST client for PHP.",
+            "homepage": "https://github.com/educoder/pest",
+            "time": "2013-11-17 12:58:01"
+        },
+        {
+            "name": "erusev/parsedown",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown.git",
+                "reference": "32de2cedcc98ffb3476f5a413f47bb482691c807"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/32de2cedcc98ffb3476f5a413f47bb482691c807",
+                "reference": "32de2cedcc98ffb3476f5a413f47bb482691c807",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Parsedown": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "Parser for Markdown.",
+            "homepage": "http://parsedown.org",
+            "keywords": [
+                "markdown",
+                "parser"
+            ],
+            "time": "2015-12-19 14:39:29"
+        },
+        {
+            "name": "romaninsh/mdcms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/romaninsh/mdcms.git",
+                "reference": "origin/master"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/romaninsh/mdcms/zipball/7c1d03d93ce296a3ee71733bbb539817d0c439e5",
+                "reference": "7c1d03d93ce296a3ee71733bbb539817d0c439e5",
+                "shasum": ""
+            },
+            "require": {
+                "erusev/parsedown": "dev-master",
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "romaninsh\\mdcms": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Romans Malinovskis",
+                    "email": "romans@agiletoolkit.org"
+                }
+            ],
+            "description": "Markdown CMS for Agile Toolkit",
+            "homepage": "http://github.com/romaninsh/mdcms",
+            "keywords": [
+                "atk4"
+            ],
+            "time": "2015-09-21 20:17:28"
         }
     ],
     "packages-dev": [],
@@ -84,8 +210,12 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "atk4/atk4": 20,
+        "erusev/parsedown": 20,
+        "romaninsh/mdcms": 20,
         "agile55/ga": 20
     },
+    "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
 }

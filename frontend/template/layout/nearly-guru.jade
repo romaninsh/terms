@@ -1,9 +1,31 @@
-div.atk-layout
-    div.atk-layout-row
-        div.atk-layout-cell.atk-swatch-ink.atk-text-inherit
-            div.atk-wrapper.atk-section-small
-                h1.atk-align-center Romans Malinovskis
-    div.atk-layout-row.atk-layout-fluid.atk-layout-expand {$Content}
+.atk-layout
+    .atk-layout-row.atk-swatch-ink
+        .atk-layout-cell
+            .atk-wrapper.atk-cells
+                .atk-cell.atk-expand
+                    ul.atk-menu-horizontal
+                        li
+                            a(href="{page}about{/}").atk-padding-small About Me 
+                        li
+                            a(href="{page}blog{/}").atk-padding-small Blog
+                        li
+                            a(href="{page}open-source{/}").atk-padding-small Open Source
+                        li
+                            a(href="{page}public-speaking{/}").atk-padding-small Public Speaking
+                .atk-cell.atk-expand.atk-text-nowrap
+                    a(href="{page}contact{/}").atk-padding-small Contact
+                    
+    .atk-layout-row.atk-swatch-gray
+        .atk-layout-cell
+            .atk-wrapper.atk-align-center.atk-padding
+                h1 Romans Malinovskis
+                h2 Developer - Architect - Inventor
+                p github.com/romaninsh - linkedin.com/RomansMalinovskis
+                
+    .atk-layout-row.atk-layout-fluid.atk-layout-expand 
+        .atk-layout-cell
+            .atk-wrapper.atk-padding {$Content}
+                
 
     div.atk-layout-row.atk-swatch-gray.atk-text-inherit
         div.atk-layout-cell

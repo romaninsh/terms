@@ -1,13 +1,34 @@
 
 <div class="atk-layout">
-  <div class="atk-layout-row">
-    <div class="atk-layout-cell atk-swatch-ink atk-text-inherit">
-      <div class="atk-wrapper atk-section-small">
-        <h1 class="atk-align-center">Romans Malinovskis</h1>
+  <div class="atk-layout-row atk-swatch-ink">
+    <div class="atk-layout-cell">
+      <div class="atk-wrapper atk-cells">
+        <div class="atk-cell atk-expand">
+          <ul class="atk-menu-horizontal">
+            <li><a href="{page}about{/}" class="atk-padding-small">About Me </a></li>
+            <li><a href="{page}blog{/}" class="atk-padding-small">Blog</a></li>
+            <li><a href="{page}open-source{/}" class="atk-padding-small">Open Source</a></li>
+            <li><a href="{page}public-speaking{/}" class="atk-padding-small">Public Speaking</a></li>
+          </ul>
+        </div>
+        <div class="atk-cell atk-expand atk-text-nowrap"><a href="{page}contact{/}" class="atk-padding-small">Contact</a></div>
       </div>
     </div>
   </div>
-  <div class="atk-layout-row atk-layout-fluid atk-layout-expand">{$Content}</div>
+  <div class="atk-layout-row atk-swatch-gray">
+    <div class="atk-layout-cell">
+      <div class="atk-wrapper atk-align-center atk-padding">
+        <h1>Romans Malinovskis</h1>
+        <h2>Developer - Architect - Inventor</h2>
+        <p>github.com/romaninsh - linkedin.com/RomansMalinovskis</p>
+      </div>
+    </div>
+  </div>
+  <div class="atk-layout-row atk-layout-fluid atk-layout-expand"> 
+    <div class="atk-layout-cell">
+      <div class="atk-wrapper atk-padding">{$Content}</div>
+    </div>
+  </div>
   <div class="atk-layout-row atk-swatch-gray atk-text-inherit">
     <div class="atk-layout-cell">
       <div class="atk-wrapper atk-section-small atk-cells atk-cells-gutter">

@@ -1,7 +1,12 @@
 {
-  "type":"project",
-  "require":{
-    "atk4\/atk4":"4.3.*@dev",
-    "agile55\/ga":"dev-master"
-  }
+    "require":{
+        "atk4\/atk4":"4.3.*@dev",
+        "erusev/parsedown": "dev-master",
+        "erusev/parsedown-extra": "dev-master",
+        "romaninsh/mdcms": "dev-master",
+        "educoder/pest": "1.0.0",
+        "agile55/ga": "dev-master"
+    }
+
+
 }
