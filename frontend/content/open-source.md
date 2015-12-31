@@ -1,8 +1,8 @@
-# About Me
+# Open Source
 
-In 2015 I have re-released Agile Toolkit under MIT license, which has been
-a huge contribution to the open source community. There have been few
-other projects which I have authored or co-contributed.
+My first contribution dates <a href="http://www.phpclasses.org/package/71-PHP-Simple-class-to-translate-strings-into-UTF-8-from-your-favorite-charset-.html" target="blank_">back to 2000</a> and I have been author and contributor of hundreds of thousands lines of open-source code, mainly in PHP.
+
+While my biggest contribution has been Agile Toolkit 4.3 (MIT License) in 2015, previously it was available under AGPL/LGPG licenses through versions 2.0 to 4.2. Additionally I contributed to many other projects listed below.
 
 ## Maintainer or Major contributor
 

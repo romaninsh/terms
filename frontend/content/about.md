@@ -18,16 +18,13 @@ web development during 80 hour course(s).
 Through some key partnerships in UK I continue to work on connecting our growing
 ATK developer group with enterprises and start-ups.
 
-## Hobbies and getting in touch
+## Hobbies and Travel
 
 It's quite difficult for me to relax from my lifetime passion (I'm writing this
 text from skiing resourt), yet I try to take my mind off work and enjoy a
-road cycling in Hertfordshire.
+road cycling in Hertfordshire or visit new places.
 
-I enjoy meeting new people especially to discuss potential projects and
-partnerships.
-
-
+Have an interesting idea or need my advice? <a href="{page}contact{/}">Get in touch</a>.
 
 
 <!--

@@ -1,42 +1,49 @@
 
 <div class="atk-layout">
-  <div class="atk-layout-row atk-swatch-ink">
+  <div id="header" class="atk-layout-row">
     <div class="atk-layout-cell">
-      <div class="atk-wrapper atk-cells">
-        <div class="atk-cell atk-expand">
-          <ul class="atk-menu-horizontal">
-            <li><a href="{page}about{/}" class="atk-padding-small">About Me </a></li>
-            <li><a href="{page}blog{/}" class="atk-padding-small">Blog</a></li>
-            <li><a href="{page}open-source{/}" class="atk-padding-small">Open Source</a></li>
-            <li><a href="{page}public-speaking{/}" class="atk-padding-small">Public Speaking</a></li>
-          </ul>
+      <header class="atk-swatch-darkGray">
+        <div class="atk-wrapper atk-padding-vertical">
+          <div class="atk-cells">
+            <div class="atk-cell">
+              <div class="atk-actions-xlarge"><a href="{page}/{/}"><span class="icon-home-outline"></span></a><a href="{page}about{/}">About Me </a><a href="{page}blog{/}">Blog</a><a href="{page}open-source{/}">Open Source</a><a href="{page}public-speaking{/}">Public Speaking</a></div>
+            </div>
+            <div class="atk-cell atk-align-right"><a href="{page}contact{/}">Contact Me</a></div>
+          </div>
         </div>
-        <div class="atk-cell atk-expand atk-text-nowrap"><a href="{page}contact{/}" class="atk-padding-small">Contact</a></div>
+      </header>
+    </div>
+  </div>
+  <div id="content" class="atk-layout-row atk-layout-expand">
+    <div class="atk-layout atk-layout-cell">
+      <div class="atk-layout-column atk-layout-expand">{IndexHeader}
+        <section id="hero" style="background-image:url(temp/sabina.jpg)" class="atk-swatch-darkGray atk-background-cover header-push">
+          <div class="atk-wrapper atk-padding-vertical-xlarge">
+            <div class="atk-align-center">
+              <div class="atk-push-large atk-text-baseline-reset">
+                <div class="atk-size-yotta2 atk-text-caps font-amatic atk-push">Romans Malinovskis</div>
+                <div class="atk-text-lead atk-size-mega"><span>Developer</span><span class="atk-sep-xlarge atk-swatch-orange-text">/</span><span>Enterpreneur</span><span class="atk-sep-xlarge atk-swatch-orange-text">/</span><span>Public Speaker</span></div>
+              </div>
+              <p class="who-am-i">I am an author of <a href="http://agiletoolkit.org/" target="_blank">the Agile Toolkit (PHP UI Framework)</a>, a father and <a href="https://www.linkedin.com/in/maligita" target="_blank">a husband</a>.
+                My passion is to excite new developers about Cloud App development and supply them <br/> with <a href="http://agiletoolkit.org/school" target="_blank">knowledge, tools and resources</a>.
+              </p>
+            </div>
+          </div>
+        </section>{/}
+        <section class="atk-padding-vertical-xlarge">
+          <div class="atk-wrapper">{$Content}</div>
+        </section>
       </div>
     </div>
   </div>
-  <div class="atk-layout-row atk-swatch-gray">
+  <div id="footer" class="atk-layout-row">
     <div class="atk-layout-cell">
-      <div class="atk-wrapper atk-align-center atk-padding">
-        <h1>Romans Malinovskis</h1>
-        <h2>Developer - Architect - Inventor</h2>
-        <p>github.com/romaninsh - linkedin.com/RomansMalinovskis</p>
-      </div>
-    </div>
-  </div>
-  <div class="atk-layout-row atk-layout-fluid atk-layout-expand"> 
-    <div class="atk-layout-cell">
-      <div class="atk-wrapper atk-padding">{$Content}</div>
-    </div>
-  </div>
-  <div class="atk-layout-row atk-swatch-gray atk-text-inherit">
-    <div class="atk-layout-cell">
-      <div class="atk-wrapper atk-section-small atk-cells atk-cells-gutter">
-        <div class="atk-cell atk-text-nowrap"><a href="undefined"><i class="icon-home"></i>&nbsp;Home</a></div>
-        <div class="atk-cell atk-text-nowrap"><a href="mailto:DONT-SPAM.me@nearly.guru"><i class="icon-mail"></i>&nbsp;Say "Hello"</a></div>
-        <div class="atk-cell atk-text-nowrap">Explore:&nbsp;<a href="http://github.com/romaninsh" target="_blank"><i class="icon-github-1"></i></a>&nbsp;<a href="http://twitter.com/romaninsh" target="_blank"><i class="icon-twitter-1"></i></a>&nbsp;<a href="http://stackoverflow.com/users/204819/romaninsh" target="_blank"><i class="icon-chat-1"></i></a>&nbsp;<a href="http://linkedin.com/in/romansmalinovskis" target="_blank"><i class="icon-linkedin"></i></a></div>
+      <hr class="atk-hr-reset"/>
+      <div class="atk-wrapper atk-padding-vertical atk-text-baseline-reset atk-text-dimmed atk-cells atk-cells-gutter">
+        <div class="atk-cell atk-text-nowrap"><a href="{page}contact{/}"><i class="icon-mail"></i>&nbsp;Say "Hello"</a></div>
+        <div class="atk-cell atk-text-nowrap">Explore:&nbsp;<a href="http://github.com/romaninsh" target="_blank"><i class="icon-github"></i></a>&nbsp;<a href="http://twitter.com/romaninsh" target="_blank"><i class="icon-twitter"></i></a>&nbsp;<a href="http://stackoverflow.com/users/204819/romaninsh" target="_blank"><i class="icon-stackoverflow"></i></a>&nbsp;<a href="http://linkedin.com/in/romansmalinovskis" target="_blank"><i class="icon-linkedin"></i></a></div>
         <div class="atk-cell atk-jackscrew">&nbsp;</div>
-        <div class="atk-cell atk-text-nowrap"><a href="undefined"><i class="icon-html5"></i>&nbsp;See Source</a></div>
+        <div class="atk-cell atk-text-nowrap"><a href="undefined"><i class="icon-atk"></i>&nbsp;See Source</a></div>
       </div>
     </div>
   </div>

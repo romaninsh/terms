@@ -5,10 +5,20 @@ class Frontend extends ApiFrontend {
 
         $this->add('Layout_Basic',null,null,['layout/nearly-guru']);
         $this->add('jUI');
-        $this->template->set('css','style.css');
+        $this->template->set('css','romans.css');
 
         $this->add('agile55/ga/Controller_Tracker');
         $this->add('romaninsh/mdcms/Controller');
+        if($this->page!='index')$this->layout->template->tryDel('IndexHeader');
+
+        $this->js(true)->_selector('.header-push')->css('padding-top', $this->js()->_selector('#header header')->outerHeight());
+
+    // $('.header-push').each(function(){
+    // 	var header = $('#header header').outerHeight();
+    // 	$(this).css('padding-top', header);
+    // });
+
+
     }
 
 }

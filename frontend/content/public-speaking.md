@@ -4,8 +4,8 @@ I have appeared as a speaker in over a dozen conferences and events in 2015
 including ConnectJS Atlanta (http://connect-js.com), Big Data TechCon Boston (http://www.bigdatatechcon.com),
 DotJS Paris (http://www.dotjs.io, sponsor track).
 
-If you would like for me to talk at your conference or event, please get in
-touch.
+If you would like for me to talk at your conference or event, <a href="{page}contact{/}">please get in
+touch</a>.
 
 ## Topics
 

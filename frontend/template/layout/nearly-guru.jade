@@ -1,58 +1,64 @@
-.atk-layout
-    .atk-layout-row.atk-swatch-ink
-        .atk-layout-cell
-            .atk-wrapper.atk-cells
-                .atk-cell.atk-expand
-                    ul.atk-menu-horizontal
-                        li
-                            a(href="{page}about{/}").atk-padding-small About Me 
-                        li
-                            a(href="{page}blog{/}").atk-padding-small Blog
-                        li
-                            a(href="{page}open-source{/}").atk-padding-small Open Source
-                        li
-                            a(href="{page}public-speaking{/}").atk-padding-small Public Speaking
-                .atk-cell.atk-expand.atk-text-nowrap
-                    a(href="{page}contact{/}").atk-padding-small Contact
-                    
-    .atk-layout-row.atk-swatch-gray
-        .atk-layout-cell
-            .atk-wrapper.atk-align-center.atk-padding
-                h1 Romans Malinovskis
-                h2 Developer - Architect - Inventor
-                p github.com/romaninsh - linkedin.com/RomansMalinovskis
-                
-    .atk-layout-row.atk-layout-fluid.atk-layout-expand 
-        .atk-layout-cell
-            .atk-wrapper.atk-padding {$Content}
-                
 
-    div.atk-layout-row.atk-swatch-gray.atk-text-inherit
-        div.atk-layout-cell
-            div.atk-wrapper.atk-section-small.atk-cells.atk-cells-gutter
+.atk-layout
+      #header.atk-layout-row
+        .atk-layout-cell
+          header.atk-swatch-darkGray
+            .atk-wrapper.atk-padding-vertical
+              .atk-cells
+                .atk-cell
+                  .atk-actions-xlarge
+                    a(href="{page}/{/}") #[span.icon-home-outline]
+                    a(href="{page}about{/}") About Me 
+                    a(href="{page}blog{/}") Blog
+                    a(href="{page}open-source{/}") Open Source
+                    a(href="{page}public-speaking{/}") Public Speaking
+                .atk-cell.atk-align-right
+                    a(href="{page}contact{/}") Contact Me
+      #content.atk-layout-row.atk-layout-expand
+        .atk-layout.atk-layout-cell
+          .atk-layout-column.atk-layout-expand
+            {IndexHeader}
+            section#hero.atk-swatch-darkGray.atk-background-cover.header-push(style="background-image:url(temp/sabina.jpg)")
+              .atk-wrapper.atk-padding-vertical-xlarge
+                .atk-align-center
+                  .atk-push-large.atk-text-baseline-reset
+                    .atk-size-yotta2.atk-text-caps.font-amatic.atk-push Romans Malinovskis
+                    .atk-text-lead.atk-size-mega
+                      span Developer
+                      span.atk-sep-xlarge.atk-swatch-orange-text /
+                      span Enterpreneur
+                      span.atk-sep-xlarge.atk-swatch-orange-text /
+                      span Public Speaker
+                  p.who-am-i.
+                      I am an author of #[a(href='http://agiletoolkit.org/' target="_blank") the Agile Toolkit (PHP UI Framework)], a father and #[a(href='https://www.linkedin.com/in/maligita' target="_blank") a husband].
+                      My passion is to excite new developers about Cloud App development and supply them #[br] with #[a(href='http://agiletoolkit.org/school' target="_blank") knowledge, tools and resources].
+            {/}
+            section.atk-padding-vertical-xlarge
+              .atk-wrapper
+                {$Content}
+      #footer.atk-layout-row
+        .atk-layout-cell
+          hr.atk-hr-reset
+          .atk-wrapper.atk-padding-vertical.atk-text-baseline-reset.atk-text-dimmed.atk-cells.atk-cells-gutter
                 .atk-cell.atk-text-nowrap
-                    a(href="#{homepage}")
-                        i.icon-home
-                        | &nbsp;Home
-                .atk-cell.atk-text-nowrap
-                    a(href="mailto:DONT-SPAM.me@nearly.guru")
+                    a(href="{page}contact{/}")
                         i.icon-mail
                         | &nbsp;Say "Hello"
                 .atk-cell.atk-text-nowrap
                     | Explore:&nbsp;
                     a(href="http://github.com/romaninsh" target="_blank")
-                        i.icon-github-1
+                        i.icon-github
                     | &nbsp;
                     a(href="http://twitter.com/romaninsh" target="_blank")
-                        i.icon-twitter-1
+                        i.icon-twitter
                     | &nbsp;
                     a(href="http://stackoverflow.com/users/204819/romaninsh" target="_blank")
-                        i.icon-chat-1
+                        i.icon-stackoverflow
                     | &nbsp;
                     a(href="http://linkedin.com/in/romansmalinovskis" target="_blank")
                         i.icon-linkedin
                 .atk-cell.atk-jackscrew &nbsp;
                 .atk-cell.atk-text-nowrap
                     a(href="#{github}")
-                        i.icon-html5
+                        i.icon-atk
                         | &nbsp;See Source
