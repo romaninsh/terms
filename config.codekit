@@ -757,6 +757,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/frontend\/public\/temp\/romans.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 306989,
+		"inputAbbreviatedPath": "\/frontend\/public\/temp\/romans.jpg",
+		"outputAbbreviatedPath": "\/frontend\/public\/temp\/romans.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/frontend\/public\/temp\/sabina.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -767,15 +778,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/frontend\/template\/layout\/nearly-guru.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/frontend\/template\/layout\/nearly-guru.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/frontend\/template\/layout\/nearly-guru.jade": {
 		"compileDebug": 1,
