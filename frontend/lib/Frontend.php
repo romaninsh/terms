@@ -20,5 +20,9 @@ class Frontend extends ApiFrontend {
 
 
     }
+    function initLayout(){
+        parent::initLayout();
+        $this->page_object->title='My Personal Page - Romans Malinovskis';
+    }
 
 }
