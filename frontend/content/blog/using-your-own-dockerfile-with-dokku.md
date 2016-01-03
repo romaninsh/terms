@@ -63,7 +63,7 @@ Policy of running ALL of your software inside containers requires you to place y
 While you can still `enter` your containers and change files, you will need to stop doing that, as all your changes inside container will be wiped with next deploy. You can create a persistent *volume* inside your container (if you need to store images or file data)
 
 
-### Buildpacks vs Dockerfile
+### Buildstep vs Dockerfile
 
 When you *push* your application into Dokku it acts like a regular *git server* with a *post-push hook*. After a successful push is taken place, the following is happening on your server (see `var/lib/dokku-alt/plugins/commands` function `dokku_build_app_from_git()` for bash code):
 
@@ -90,7 +90,7 @@ While Buildpack makes it convenient to create apps quickly and deploy, their fle
 
 [Dockerfile](https://docs.docker.com/engine/reference/builder/) is a file inside your repository containing the steps that will be performed by Docker to initialize container environment. This file is very simple and Docker will be creating intermediate container after each step. When re-deploying your app, the un-changed part of your Dockerfile will be cached. This mecanics speeds up your deployment speed significantly.
 
-Here is how Dockerfile looks like:
+Here is the example of a Dockerfile:
 
 ```
 FROM ubuntu:latest
@@ -103,12 +103,14 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y install \
 RUN a2enmod rewrite
 RUN a2enmod headers
 
+# setting up your app
 RUN mkdir -p /app && rm -fr /var/www/html && ln -s /app /var/www/html
 
 ADD vhost.conf /etc/apache2/sites-enabled/000-default.conf
 ADD run.sh /run.sh
 ADD . /app
 
+# Configure container settings
 EXPOSE 80
 WORKDIR /app
 CMD ["/run.sh"]
@@ -116,16 +118,17 @@ CMD ["/run.sh"]
 
 I have simplified this file but you can look at the fully working version that will [install Wordpress inside your container](https://github.com/romaninsh/docker-wordpress/blob/master/Dockerfile).
 
-The first few commands will upgrade version of "ubuntu" inside your container. This may take a while first time, but Docker will cache and further deploys will be quite fast.
+The first few lines will upgrade version of "ubuntu" inside your container. This may take a while during your first deploy, but Docker will caching will make it real fast next time.
 
-Next we set up a new webroot for your application inside `/app` and will copy your repository contens inside that folder. 
+Further lines  application inside `/app` and will copy your repository contents inside that folder and will also set up a simplified [vhost.conf](https://github.com/romaninsh/docker-wordpress/blob/master/vhost.conf) for our application.
+
+Final piece will instruct Docker that port 80 needs to be exposed and that the file [run.sh](https://github.com/romaninsh/docker-wordpress/blob/master/run.sh) must be runing during a lifespan of this container.
 
 
+## How to use Dokku-alt for your web apps
 
+In my work I'm mostly using PHP applications written in [Agile Toolkit](http://agiletoolkit.org/) that are deployed inside one or several *dokku-alt* containers. A single application contains multiple "interfaces" - frontend, backend and quite often will also have an "api" end-point.
 
+I heavily rely on CONFIG variables and perform container tweaks after it has been built to manipulate Webroot and some other settings.
 
-Dokku and dokku-alt are mini-PaaS solutions for your Ubuntu server essentially helping you deploy your websites into isolated container. Your Ubuntu Linux running on DigitalOcean $10/m droplet could have dozens of "apps" running with ease.
-
-Dokku-alt handles the deployment of the application, if it is a web application, it will associate it with domain / URL and will keep looking after things like domain redirects, aliases, https certificates and deploy access rights.
-
-In my work I'm mostly using PHP applications written in [Agile Toolkit](http://agiletoolkit.org/). A single application contains multiple "interfaces" - frontend, backend and quite often will also have an "api" end-point.
+In some instances I create a shared volumes between containers. If you would like me to write a more detailed blog post about practical use of Dokku-alt, [let me know on twitter - @romaninsh](https://twitter.com/romaninsh).
