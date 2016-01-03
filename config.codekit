@@ -136,7 +136,7 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/frontend\/content\/blog\/new-look-of-nearly-guru.md": {
+	"\/frontend\/content\/blog\/using-your-own-dockerfile-with-dokku.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 0,
 		"enableLabels": 1,
@@ -145,9 +145,9 @@
 		"fileType": 4096,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/frontend\/content\/blog\/new-look-of-nearly-guru.md",
+		"inputAbbreviatedPath": "\/frontend\/content\/blog\/using-your-own-dockerfile-with-dokku.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/frontend\/content\/blog\/new-look-of-nearly-guru.html",
+		"outputAbbreviatedPath": "\/frontend\/content\/blog\/using-your-own-dockerfile-with-dokku.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
