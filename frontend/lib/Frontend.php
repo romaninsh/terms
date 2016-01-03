@@ -6,6 +6,7 @@ class Frontend extends ApiFrontend {
         $this->add('Layout_Basic',null,null,['layout/nearly-guru']);
         $this->add('jUI');
         $this->template->set('css','romans.css');
+        $this->jui->addStaticInclude('prism');
 
         $this->add('agile55/ga/Controller_Tracker');
         $this->add('romaninsh/mdcms/Controller');

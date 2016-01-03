@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "530b915b4e7ed3da39af8e6889a84bd8",
-    "content-hash": "006ad87537fe87dfb50a689a7fc8983c",
+    "hash": "a5472e1f469eec8f6d5ba23021d3e61f",
+    "content-hash": "d23627f90df9d1bc7578325ccb893be1",
     "packages": [
         {
             "name": "agile55/ga",
@@ -126,16 +126,16 @@
         },
         {
             "name": "erusev/parsedown",
-            "version": "dev-master",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "32de2cedcc98ffb3476f5a413f47bb482691c807"
+                "reference": "3ebbd730b5c2cf5ce78bc1bf64071407fc6674b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/32de2cedcc98ffb3476f5a413f47bb482691c807",
-                "reference": "32de2cedcc98ffb3476f5a413f47bb482691c807",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/3ebbd730b5c2cf5ce78bc1bf64071407fc6674b7",
+                "reference": "3ebbd730b5c2cf5ce78bc1bf64071407fc6674b7",
                 "shasum": ""
             },
             "type": "library",
@@ -161,11 +161,55 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2015-12-19 14:39:29"
+            "time": "2015-10-04 16:44:32"
+        },
+        {
+            "name": "erusev/parsedown-extra",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown-extra.git",
+                "reference": "0db5cce7354e4b76f155d092ab5eb3981c21258c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown-extra/zipball/0db5cce7354e4b76f155d092ab5eb3981c21258c",
+                "reference": "0db5cce7354e4b76f155d092ab5eb3981c21258c",
+                "shasum": ""
+            },
+            "require": {
+                "erusev/parsedown": "~1.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ParsedownExtra": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "An extension of Parsedown that adds support for Markdown Extra.",
+            "homepage": "https://github.com/erusev/parsedown-extra",
+            "keywords": [
+                "markdown",
+                "markdown extra",
+                "parsedown",
+                "parser"
+            ],
+            "time": "2015-11-01 10:19:22"
         },
         {
             "name": "romaninsh/mdcms",
-            "version": "dev-master",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/romaninsh/mdcms.git",
@@ -173,12 +217,12 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/romaninsh/mdcms/zipball/7c1d03d93ce296a3ee71733bbb539817d0c439e5",
-                "reference": "7c1d03d93ce296a3ee71733bbb539817d0c439e5",
+                "url": "https://api.github.com/repos/romaninsh/mdcms/zipball/f7faf788dc4268a41973bcb4f26e0c681c4e4c14",
+                "reference": "f7faf788dc4268a41973bcb4f26e0c681c4e4c14",
                 "shasum": ""
             },
             "require": {
-                "erusev/parsedown": "dev-master",
+                "erusev/parsedown-extra": "*",
                 "php": ">=5.3"
             },
             "type": "library",
@@ -202,7 +246,7 @@
             "keywords": [
                 "atk4"
             ],
-            "time": "2015-09-21 20:17:28"
+            "time": "2016-01-03 21:25:17"
         }
     ],
     "packages-dev": [],
@@ -210,8 +254,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "atk4/atk4": 20,
-        "erusev/parsedown": 20,
-        "romaninsh/mdcms": 20,
+        "erusev/parsedown-extra": 20,
         "agile55/ga": 20
     },
     "prefer-stable": false,

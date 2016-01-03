@@ -1,11 +1,11 @@
 {
     "require":{
         "atk4\/atk4":"4.3.*@dev",
-        "erusev/parsedown": "dev-master",
+        "erusev/parsedown": "~1.4",
         "erusev/parsedown-extra": "dev-master",
-        "romaninsh/mdcms": "dev-master",
         "educoder/pest": "1.0.0",
-        "agile55/ga": "dev-master"
+        "agile55/ga": "dev-master",
+        "romaninsh/mdcms": "^1.1"
     }
 
 

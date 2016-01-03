@@ -1,1 +1,0 @@
-$(function(){$(".header-push").each(function(){var e=$("#header header").outerHeight();$(this).css("padding-top",e)})});
