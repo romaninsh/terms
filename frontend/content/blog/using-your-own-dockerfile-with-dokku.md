@@ -73,11 +73,52 @@ When you *push* your application into Dokku it acts like a regular *git server* 
  4. Container with new image is launched
  5. NGINX updates routing towards new container
  6. Old container is retired
+ 
+Step 3 requires further explanation and it can be executed in two possible ways:
 
-All of the above steps are simple enough, however the step 3 requires to look deeper. [Dockerfile](https://docs.docker.com/engine/reference/builder/) is a file inside your repository containing the steps that will be performed by Docker to initialize environment inside your container. Here is a simple Dockerfile that will [install Wordpress inside your container](https://github.com/romaninsh/docker-wordpress/blob/master/Dockerfile):
+**Without Dockerfile - Buildstep**
+
+Dokku, Dokku-alt and Heiroku will start looking inside your repository files trying to *detect* the language of your app. If it finds `index.php` in your webroot folder, it will assume your application is written in PHP. If it will find `package.json` instead, it will deploy a [NodeJS application](https://github.com/heroku/node-js-sample). 
+
+This is done by [executing](https://github.com/cloudfoundry/php-buildpack) [several](https://github.com/CHH/heroku-buildpack-php) "[Buildpacks](https://devcenter.heroku.com/articles/buildpacks)" where each of them performs "[detection](https://github.com/heroku/heroku-buildpack-php/blob/master/bin/detect)". If buildpack has recognized the environment it will then be used to create an *environment* for your container.
+
+Typically buildpack will have some internal rules on how to pass in some settings, such as version of PHP version, custom webserver settings and other things.
+
+While Buildpack makes it convenient to create apps quickly and deploy, their flexibility is limited and their build time is quite slow despite some of the caching they do.
+
+**With Dockerfile**
+
+[Dockerfile](https://docs.docker.com/engine/reference/builder/) is a file inside your repository containing the steps that will be performed by Docker to initialize container environment. This file is very simple and Docker will be creating intermediate container after each step. When re-deploying your app, the un-changed part of your Dockerfile will be cached. This mecanics speeds up your deployment speed significantly.
+
+Here is how Dockerfile looks like:
 
 ```
+FROM ubuntu:latest
+MAINTAINER Romans <me@nearly.guru>
+RUN apt-get update
+RUN apt-get -y upgrade
+RUN DEBIAN_FRONTEND=noninteractive apt-get -y install \
+        mysql-client apache2 libapache2-mod-php5
 
+RUN a2enmod rewrite
+RUN a2enmod headers
+
+RUN mkdir -p /app && rm -fr /var/www/html && ln -s /app /var/www/html
+
+ADD vhost.conf /etc/apache2/sites-enabled/000-default.conf
+ADD run.sh /run.sh
+ADD . /app
+
+EXPOSE 80
+WORKDIR /app
+CMD ["/run.sh"]
+```
+
+I have simplified this file but you can look at the fully working version that will [install Wordpress inside your container](https://github.com/romaninsh/docker-wordpress/blob/master/Dockerfile).
+
+The first few commands will upgrade version of "ubuntu" inside your container. This may take a while first time, but Docker will cache and further deploys will be quite fast.
+
+Next we set up a new webroot for your application inside `/app` and will copy your repository contens inside that folder. 
 
 
 
