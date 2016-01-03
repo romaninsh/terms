@@ -30,20 +30,27 @@ This improves reliability and allows you to run 10 different PHP versions on the
 
 **3. Access Control**
 
-The deployment is performed through a "git push" mechanics. Your local repository needs a new remote added:
+The deployment is performed through a `git push` mechanics. If you are already using *Github* in your project, you must have configured SSH keys to authenticate access to your repositories. The same key authentication is used by Dokku-alt:
 
 ```
 git remote add deploy dokku@my.dokku-alt.com:my-app-name
 git remote deploy master
 ```
 
-Git software will use your SSH key to connect to `my.dokku-alt.com` server and deploy an application with `my-app-name`. It will most likely appear under a URL `http://my-app-name.my.dokku-alt.com`, but you can further configure it with a different domain.
-
-The SSH key you are using to push (it's public part to be precise) must be known to dokku-alt server. You can add a new key with:
+The above command may end up in failure saying that you have no permission to push. You will need to authorize your SSH key to connect to `my.dokku-alt.com` server and deploy an application with the name of `my-app-name`. Log into your Ubuntu box and run:
 
 ```
 dokku deploy:allow my-app-name
 ```
+
+then copy-paste your public SSH key followed by *CTRL+D*. Re-try deploy command:
+
+```
+git remote deploy master
+```
+
+Once deployed, your application will most likely appear under a URL `http://my-app-name.my.dokku-alt.com`, but you can further configure it with a different domain.
+
 
 One app may have multiple deploy keys and even though those users have access to "deploy", they won't have any means to connect to server shell or change anything.
 
@@ -58,7 +65,18 @@ While you can still `enter` your containers and change files, you will need to s
 
 ### Buildpacks vs Dockerfile
 
+When you *push* your application into Dokku it acts like a regular *git server* with a *post-push hook*. After a successful push is taken place, the following is happening on your server (see `var/lib/dokku-alt/plugins/commands` function `dokku_build_app_from_git()` for bash code):
 
+ 1. Repository is clonned into a temporary folder
+ 2. Submodules are installed
+ 3. New image is built either using "Buildstep" or "Dockerfile"
+ 4. Container with new image is launched
+ 5. NGINX updates routing towards new container
+ 6. Old container is retired
+
+All of the above steps are simple enough, however the step 3 requires to look deeper. [Dockerfile](https://docs.docker.com/engine/reference/builder/) is a file inside your repository containing the steps that will be performed by Docker to initialize environment inside your container. Here is a simple Dockerfile that will [install Wordpress inside your container](https://github.com/romaninsh/docker-wordpress/blob/master/Dockerfile):
+
+```
 
 
 
