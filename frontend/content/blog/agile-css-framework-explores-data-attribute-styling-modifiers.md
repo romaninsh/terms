@@ -1,6 +1,6 @@
 ## Agile CSS Framework explores data-* attribute styling modifiers
 
-Traditionally CSS frameworks have relied on ability to combine multiple CSS classes for widget styling. While one class may specify the name of the widget (dropdown-menu), a supplimentary class (dropdown-menu-right) will define some property such as positioning of a menu:
+Traditionally CSS frameworks have relied on ability to combine multiple CSS classes for widget styling. While one class may specify the name of the widget (dropdown-menu), a supplementary class (dropdown-menu-right) will define some property such as positioning of a menu:
 
 ``` html
 <ul class="dropdown-menu dropdown-menu-right">
@@ -28,7 +28,7 @@ I know the author of Agile CSS pretty well and in the latest branch he has start
 
 ### The Component CSS Framework and Modifiers
 
-If you have used CSS Frameworks you might be aware that there are different "design principles" that CSS framewowrks use in their design. I would like to look into the following two CSS framework design principles:
+If you have used CSS Frameworks you might be aware that there are different "design principles" that CSS frameworks use in their design. I would like to look into the following two CSS framework design principles:
 
  1. Widget-centric CSS frameworks
  2. Component-driven CSS frameworks
@@ -55,7 +55,7 @@ Similarly a Foundation has a dedicated class for the button group, although the 
 </ul>
 ```
 
-Curiously - a very similar widget to Button Group is pagniation, but it is expressed using the entirely different markup and CSS class. Bootstrap and Foundation use the same HTML here which reads:
+Curiously - a very similar widget to Button Group is pagination, but it is expressed using the entirely different markup and CSS class. Bootstrap and Foundation use the same HTML here which reads:
 
 ``` html
 <nav>
@@ -74,7 +74,7 @@ To conclude - Widget-centric CSS framework would focus on developing each compon
 
 #### Component-driven CSS Framework
 
-In the pursuit of to build a more re-usable and flexible framework, CSS developers understood that some code can be shared between components. Each widget was broken down into low-level components that define shape, padding, outlines, palette and behaviour of contained elements. By applying several CSS classes to a single HTML elements it's possible to build new widgets - even if CSS Framework developers haven't thought of them.
+In the pursuit of to build a more re-usable and flexible framework, CSS developers understood that some code can be shared between components. Each widget was broken down into low-level components that define shape, padding, outlines, palette and behavior of contained elements. By applying several CSS classes to a single HTML elements it's possible to build new widgets - even if CSS Framework developers haven't thought of them.
 
 This principle of multiple levels of building blocks defines what we call a Component-driven CSS frameworks.
 
@@ -100,11 +100,11 @@ And similarly the paginator:
 
 Both are actually using the same mark-up. A closer inspection of the [atk-button-set code](https://github.com/atk4/agiletoolkit-css/blob/master/framework/less/components.less#L216) tells us that it's not actually a widget, but rather a modifier that makes buttons stick together.
 
-When defining a more complex components (such as Navigation Bar), Agile CSS does not rely on pre-made LESS file, but manipulates basic components. By re-using CSS clasess you get insane saving in the size of CSS file, great reusability and flexibility to design new elements and arrange them in new ways.
+When defining a more complex components (such as Navigation Bar), Agile CSS does not rely on pre-made LESS file, but manipulates basic components. By re-using CSS classes you get insane saving in the size of CSS file, great reusability and flexibility to design new elements and arrange them in new ways.
 
 Bootstrap has to individually style everything that you can potentially include in the navigation bar - [form, buttons or links](https://github.com/twbs/bootstrap/blob/e38f066d8c203c3e032da0ff23cd2d6098ee2dd6/less/navbar.less#L286).
 
-(Note: Agile CSS is also a responsive framework, but the responsiveness is implemented diffrenently. Perhaps a topic for yet another blog post)
+(Note: Agile CSS is also a responsive framework, but the responsiveness is implemented differently. Perhaps a topic for yet another blog post)
 
 #### Modifier-infused code
 
@@ -130,7 +130,7 @@ Agile CSS puts more weight on the HTML and use of various CSS modifier classes t
 
 With the wide selection of various classes that can appear in your HTML here and there to create a custom widget, it can be quite confusing to see what each class is doing.
 
-To avoid this problem, Agile CSS is trying the concept of assigning styles to your HTML through *data-XX* attributes. The use of those attributes allow to supply modifiers at a much more granual level:
+To avoid this problem, Agile CSS is trying the concept of assigning styles to your HTML through *data-XX* attributes. The use of those attributes allow to supply modifiers at a much more granular level:
 
 ``` html
 <section data-padding="all top-s bottom-s">
@@ -164,7 +164,7 @@ The example above uses `data-items` and `data-text` to make changes text size an
     data-border="outline thick" data-shape="circle" href="#">RS</a>
 ```
 
-## My Thoughs on Modifiers
+## My Thoughts on Modifiers
 
 My thoughts on the use of `data-XX` for styling are mixed. I can see some of the advantages, where it gives a better flexibility to define padding sizes especially by combining top/left/bottom/right with xs/s/reset/l/xl, however I'm worried that use of those data-attributes may conflict with 3rd party JavaScript code, which may want to use those for their own purposes.
 
