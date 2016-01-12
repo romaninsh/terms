@@ -169,6 +169,27 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/frontend\/content\/blog\/making-nicely-looking-website-without-design-skills.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/frontend\/content\/blog\/making-nicely-looking-website-without-design-skills.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/frontend\/content\/blog\/making-nicely-looking-website-without-design-skills.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
 	"\/frontend\/content\/blog\/replace-your-webserver-with-dokku-alt.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 0,
