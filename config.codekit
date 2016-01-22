@@ -157,6 +157,27 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/frontend\/content\/blog\/announcing-split-of-dsql-from-agile-toolkit.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/frontend\/content\/blog\/announcing-split-of-dsql-from-agile-toolkit.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/frontend\/content\/blog\/announcing-split-of-dsql-from-agile-toolkit.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
 	"\/frontend\/content\/blog\/blog-images\/agile-css-widget-preview.png": {
 		"fileType": 32768,
 		"ignore": 0,
