@@ -2,6 +2,22 @@
 
 <article class="atk-box-large">
   <div class="atk-push">
+    <h3 class="atk-text-baseline-default atk-push-reset"> <a href="{page}blog/announcing-split-of-dsql-from-agile-toolkit{/}">Announcing split of DSQL from Agile Toolkit</a></h3>
+      <div class="atk-text-dimmed">Published in Blog on 29/01/2016</div>
+  </div>
+<div markdown="1">
+[DSQL](https://book.agiletoolkit.org/model/dsql.html) is a SQL Query Builder of [Agile Toolkit](https://agiletoolkit.org/) - an object-oriented library which helps your PHP application reliably build "SELECT .. FROM .. WHERE .." queries.
+
+DSQL is about to become a stand-alone component. As the part of our Agile Toolkit roadmap we will be moving DSQL, ORM and CSS into their own open-source projects. This change will help us improve the foundation of our framework.
+
+**I am looking for open-source enthusiasts** who would like to help me with this project. If you would like to help - read my article and fill out simple form at the bottom.
+
+</div>
+  <p><a href="{page}blog/announcing-split-of-dsql-from-agile-toolkit{/}">Read more..</a></p>
+</article>
+
+<article class="atk-box-large">
+  <div class="atk-push">
     <h3 class="atk-text-baseline-default atk-push-reset"> <a href="{page}blog/agile-css-framework-explores-data-attribute-styling-modifiers{/}">Agile CSS Framework explores data-* attribute styling modifiers</a></h3>
       <div class="atk-text-dimmed">Published in Blog on 12/01/2016</div>
   </div>
