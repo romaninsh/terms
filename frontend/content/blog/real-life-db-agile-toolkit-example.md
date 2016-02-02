@@ -23,8 +23,6 @@ The interface for pulling all this data is really simple:
 
 And a LIVE DEMO is also available: [http://sink.agiletoolkit.org/employees/browse](http://sink.agiletoolkit.org/employees/browse)
 
-Read my new blog article where I'll look into some of the implementation details, that can be invaluable for you if you want to learn Agile Toolkit better.
-
 ## Defining the Models
 
 Unlike most other projects where "id" column is defined as auto-increment, the test_db does not rely on "id" columns at all, instead they use emp_no and dept_no througout all of the database.
