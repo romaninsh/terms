@@ -185,3 +185,17 @@ DSQL is already included in the curriculum of our [Agile Toolkit school](https:/
 We need your help. Getting involved is a great way to learn and contribute to the world of Open Source. It will also open new opportunities for you or your company.
 
 <a class="atk-button atk-align-center atk-swatch-orange atk-size-mega" href="http://goo.gl/forms/uC7AKXU5Pn" target="_blank">Register your interest</a>
+
+## Comments
+
+<div id="disqus_thread"></div>
+<script>
+(function() {
+var d = document, s = d.createElement('script');
+
+s.src = '//nearlyguru.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>

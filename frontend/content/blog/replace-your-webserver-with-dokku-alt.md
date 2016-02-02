@@ -154,3 +154,17 @@ In my work I'm mostly deploying PHP applications written in [Agile Toolkit](http
 I heavily rely on CONFIG variables and perform container tweaks after it has been built to manipulate Webroot and some other settings. In some instances I create a shared volumes between containers.
 
 If you would like me to write another, a more detailed blog post about practical use of Dokku-alt and look at some practical cases - please [let me know on twitter - @romaninsh](https://twitter.com/romaninsh).
+
+## Comments
+
+<div id="disqus_thread"></div>
+<script>
+(function() {
+var d = document, s = d.createElement('script');
+
+s.src = '//nearlyguru.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>

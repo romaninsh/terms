@@ -171,3 +171,17 @@ My thoughts on the use of `data-XX` for styling are mixed. I can see some of the
 CSS classes are mainly used for styling, while data-X are mainly used by JavaScript. While CSS allows us to target both, I am wondering if this is a correct approach.
 
 Still I'm willing to explore the possibilities here. I am very curious of what you might think about this new technique in a CSS framework.
+
+## Comments
+
+<div id="disqus_thread"></div>
+<script>
+(function() {
+var d = document, s = d.createElement('script');
+
+s.src = '//nearlyguru.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>

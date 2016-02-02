@@ -7,6 +7,48 @@ If you have a question or challenge that you would like to write about on my blo
 
 <article class="atk-box-large">
   <div class="atk-push">
+    <h3 class="atk-text-baseline-default atk-push-reset"> <a href="{page}blog/real-life-db-agile-toolkit-example{/}">Real-life Database example for Agile Toolkit</a></h3>
+      <div class="atk-text-dimmed">Published in Blog on 02/02/2016</div>
+  </div>
+<div markdown="1">
+
+Agile Toolkit is a PHP web framework with a particularly powerful ORM (Object-relational mapping) engine. This ORM goes much further beyond translating your data records into objects. It is fluent with joins, expressions, conditions and subqueries helping developer to take full potential of SQL engine through object-oriented interface.
+
+To help illustrating some of these features, I have created a new enhancement to the [Agile Toolkit Kitchen Sink project](http://sink.agiletoolkit.org/). The best part, you can download this project and explore it on your laptop, [it's available on GitHub](https://github.com/atk4/sink).
+
+For data I decided to use a [standard test_db repository](https://github.com/datacharmer/test_db), that creates about 300,000 employee records in the database along with 2,8 millions of salary records. The data is relational and can be seen in the following ER Diagram:
+
+![image](blog-images/employees-db.png){.atk-expand}
+
+
+Within just 3 hours of coding, I've managed to build an interface where a user can find answers to various questions such as:
+
+ - What is a current salary of a specific employee
+ - What was employee salary for a specific date in time
+ - What was average employee salary at the time of hiring
+ - Who was hired with a largest salary
+ - How many employees were working during 1 jan of 1995
+ - And many other questions.
+
+The interface for pulling all this data is really simple:
+
+![image](blog-images/employees-ui.png){.atk-expand}
+
+
+And a LIVE DEMO is also available: [http://sink.agiletoolkit.org/employees/browse](http://sink.agiletoolkit.org/employees/browse)
+
+Read my new blog article where I'll look into some of the implementation details, that can be invaluable for you if you want to learn Agile Toolkit better.
+
+
+</div>
+  <p><a href="{page}blog/real-life-db-agile-toolkit-example{/}">Read more..</a></p>
+</article>
+
+
+
+
+<article class="atk-box-large">
+  <div class="atk-push">
     <h3 class="atk-text-baseline-default atk-push-reset"> <a href="{page}blog/announcing-split-of-dsql-from-agile-toolkit{/}">Announcing split of DSQL from Agile Toolkit</a></h3>
       <div class="atk-text-dimmed">Published in Blog on 29/01/2016</div>
   </div>
