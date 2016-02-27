@@ -99,3 +99,17 @@ Since this milestone I have been putting my time into further sustainability of 
 
 Agile Toolkit would not be possible without contributions. I would like to offer a big thanks to anyone who have contributed code back into the framework, developed projects on it or even provided some feedback. 
 
+## Comments
+
+<div id="disqus_thread"></div>
+<script>
+(function() {
+var d = document, s = d.createElement('script');
+
+s.src = '//nearlyguru.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+
