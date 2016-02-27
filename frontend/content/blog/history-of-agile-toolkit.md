@@ -17,7 +17,7 @@ I used my experience from early desktop environments and toolkits and decided th
  
 This concept is still used in Agile Toolkit today. This is the sample form and page implementaiton from AModules-2:
 
-```
+``` php
 <?
 /**
  * This is default login page
@@ -42,7 +42,7 @@ class pLogin extends Page {
 
 This file makes use of a form "Login" which is defined and located in ""form/Login.php":
 
-```
+``` php
 <?
 class Login extends Form {
     function init(){
