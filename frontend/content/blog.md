@@ -7,6 +7,30 @@ If you have a question or challenge that you would like to write about on my blo
 
 <article class="atk-box-large">
   <div class="atk-push">
+    <h3 class="atk-text-baseline-default atk-push-reset"> <a href="{page}blog/history-of-agile-toolkit{/}">History of Agile Toolkit</a></h3>
+      <div class="atk-text-dimmed">Published in Blog on 14/03/2016</div>
+  </div>
+<div markdown="1">
+
+Agile Toolkit is my software project that I have started all the way back in 2000 and has been in my care for almost 2 decades now. This projects reflects my desire to simplify life of a web developer and introduce some unique concepts in web development.
+
+#### What Motivated me to create Agile Toolkit?
+
+Agile Toolkit was created to solve the re-usability problem as I was having while creating series of admin interfaces for a rather simple websites. All of those sites would implement interface where certain type records had to be listed, created, deleted and modified. In a modern days we call this a CRUD (Create, Read, Update, Delete), but back in 2000 this rather new concept. Eventually more modules were added allowing more than the 4 basic actions which resulted in the early name of the framework: "a-modules".
+
+</div>
+  <p><a href="{page}blog/history-of-agile-toolkit{/}">Read more..</a></p>
+</article>
+
+
+
+
+
+
+
+
+<article class="atk-box-large">
+  <div class="atk-push">
     <h3 class="atk-text-baseline-default atk-push-reset"> <a href="{page}blog/real-life-db-agile-toolkit-example{/}">Real-life Database example for Agile Toolkit</a></h3>
       <div class="atk-text-dimmed">Published in Blog on 02/02/2016</div>
   </div>
