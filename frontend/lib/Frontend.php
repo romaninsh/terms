@@ -11,6 +11,7 @@ class Frontend extends ApiFrontend {
         $this->add('agile55/ga/Controller_Tracker');
         $this->add('romaninsh/mdcms/Controller');
         if($this->page!='index')$this->layout->template->tryDel('IndexHeader');
+        $this->js(true)->_selector('.atk-layout-cell:first')->css('height','auto');
 
         $this->js(true)->_selector('.header-push')->css('padding-top', $this->js()->_selector('#header header')->outerHeight());
 
