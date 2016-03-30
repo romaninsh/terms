@@ -5,6 +5,27 @@ web application development.
 If you have a question or challenge that you would like to write about on my blog - [contact me through my twitter - @romaninsh](https://twitter.com/romaninsh).
 
 
+
+<article class="atk-box-large">
+  <div class="atk-push">
+    <h3 class="atk-text-baseline-default atk-push-reset"> <a href="{page}blog/dsql-progress-alpha-version-released{/}">DSQL Progress - alpha version released!</a></h3>
+      <div class="atk-text-dimmed">Published in Blog on 30/03/2016</div>
+  </div>
+<div markdown="1">
+
+In [one of my previous posts](http://nearly.guru/blog/announcing-split-of-dsql-from-agile-toolkit) I have proposed to split a component that has been a part of our ATK library into a separate project called [DSQL](https://github.com/atk4/dsql). Me and [Imants](https://github.com/DarkSide666) have been [burning the midnight oil](https://github.com/atk4/dsql/graphs/punch-card) to move and refactor functionality into this separate project, and we have just [released the ALPHA1 version of the project](https://github.com/atk4/dsql/releases/tag/1.0.0-alpha).
+
+</div>
+  <p><a href="{page}blog/dsql-progress-alpha-version-released{/}">Read more..</a></p>
+</article>
+
+
+
+
+
+
+
+
 <article class="atk-box-large">
   <div class="atk-push">
     <h3 class="atk-text-baseline-default atk-push-reset"> <a href="{page}blog/history-of-agile-toolkit{/}">History of Agile Toolkit</a></h3>

@@ -1,4 +1,4 @@
-# Update on our Open-Source Project - DSQL
+# DSQL Progress - alpha version released
 
 In [one of my previous posts](http://nearly.guru/blog/announcing-split-of-dsql-from-agile-toolkit) I have proposed to split a component that has been a part of our ATK library into a separate project called [DSQL](https://github.com/atk4/dsql). Me and [Imants](https://github.com/DarkSide666) have been [burning the midnight oil](https://github.com/atk4/dsql/graphs/punch-card) to move and refactor functionality into this separate project, and we have just [released the ALPHA1 version of the project](https://github.com/atk4/dsql/releases/tag/1.0.0-alpha).
 
