@@ -150,5 +150,4 @@ Agile UI and Agile Platform are planned to be released by the end of 2016.
 
 My team is looking for developers that can help us test early versions of Agile Data and Agile Toolkit and Agile Platform. In exchange for your involvement, we are willing to give you access to some commercial widgets, themes and add-ons, training materials or commercial support. You need to provide your details and we will email you further information:
 
-http://goo.gl/forms/gXTiRrd7SOyENpLs1
-
+<a class="atk-button atk-align-center atk-swatch-orange atk-size-mega" href="http://goo.gl/forms/gXTiRrd7SOyENpLs1" target="_blank">Register your interest</a>
