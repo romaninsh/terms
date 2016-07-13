@@ -90,7 +90,7 @@ The core of the framework has been stable since 2011 and while more features are
 
 The new branch have been in active use through our internal projects and eventually went live as a stable release in 2015.
 
-https://github.com/atk4/atk4/blob/release/4.3.2/CHANGES.md#major-changes-42-to-43
+https://github.com/atk4/atk4/blob/4.3.2/CHANGES.md#major-changes-42-to-43
 
 Since this milestone I have been putting my time into further sustainability of the framework, enterprise support and education. 
 
