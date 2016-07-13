@@ -1,6 +1,6 @@
 {
     "require":{
-        "atk4\/atk4":"4.3.*@dev",
+        "atk4\/atk4":"4.3.*",
         "erusev/parsedown": "~1.4",
         "erusev/parsedown-extra": "dev-master",
         "educoder/pest": "1.0.0",

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a5472e1f469eec8f6d5ba23021d3e61f",
-    "content-hash": "d23627f90df9d1bc7578325ccb893be1",
+    "hash": "d19ecd54fc0b9102f130ee956a4327bf",
+    "content-hash": "34978d2372843963996a676af6a1de47",
     "packages": [
         {
             "name": "agile55/ga",
@@ -50,16 +50,16 @@
         },
         {
             "name": "atk4/atk4",
-            "version": "4.3.x-dev",
+            "version": "4.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/atk4/atk4.git",
-                "reference": "7c78a416a40084e983906ecc99b5cc97befda0a9"
+                "reference": "0eb774a28165db5cca5b0520851d212f11ade6f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atk4/atk4/zipball/7c78a416a40084e983906ecc99b5cc97befda0a9",
-                "reference": "7c78a416a40084e983906ecc99b5cc97befda0a9",
+                "url": "https://api.github.com/repos/atk4/atk4/zipball/0eb774a28165db5cca5b0520851d212f11ade6f9",
+                "reference": "0eb774a28165db5cca5b0520851d212f11ade6f9",
                 "shasum": ""
             },
             "type": "library",
@@ -80,7 +80,7 @@
                 "atk4",
                 "framework"
             ],
-            "time": "2015-06-30 11:06:22"
+            "time": "2016-02-29 12:21:49"
         },
         {
             "name": "educoder/pest",
@@ -217,8 +217,8 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/romaninsh/mdcms/zipball/f7faf788dc4268a41973bcb4f26e0c681c4e4c14",
-                "reference": "f7faf788dc4268a41973bcb4f26e0c681c4e4c14",
+                "url": "https://api.github.com/repos/romaninsh/mdcms/zipball/origin/master",
+                "reference": "origin/master",
                 "shasum": ""
             },
             "require": {
@@ -253,7 +253,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "atk4/atk4": 20,
         "erusev/parsedown-extra": 20,
         "agile55/ga": 20
     },
