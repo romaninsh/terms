@@ -1,5 +1,6 @@
 <?php
-class Frontend extends ApiFrontend {
+class Frontend extends App_Frontend {
+    public $title='My Personal Page - Romans Malinovskis';
     function init() {
         parent::init();
 
@@ -24,7 +25,7 @@ class Frontend extends ApiFrontend {
     }
     function initLayout(){
         parent::initLayout();
-        $this->page_object->title='My Personal Page - Romans Malinovskis';
+        $this->page_object->title = $this->title.' - '.$this->page_object->title;
     }
 
 }
