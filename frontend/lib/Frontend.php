@@ -25,7 +25,7 @@ class Frontend extends App_Frontend {
     }
     function initLayout(){
         parent::initLayout();
-        $this->page_object->title = $this->title.' - '.$this->page_object->title;
+        $this->page_object->title = $this->page_object->title. ' - '.$this->title;
     }
 
 }
