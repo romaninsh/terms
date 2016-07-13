@@ -1,5 +1,40 @@
 <h2 class="atk-push-large atk-align-center atk-text-caps font-amatic">Latest from the <a href='{page}blog{/}'>Blog</a></h2>
 
+
+
+<article class="atk-box-large">
+  <div class="atk-push">
+    <h3 class="atk-text-baseline-default atk-push-reset"> <a href="{page}blog/untangling-spaghetti-code-with-agile-toolkit{/}">Untangling Spaghetti Code</a></h3>
+      <div class="atk-text-dimmed">Published in Blog on 30/06/2016</div>
+  </div>
+<div markdown="1">
+
+A few months ago my oldest web application was replaced after it was in daily use over 15 years unchanged. An extreme case, no doubt.
+
+Most web apps, if not looked after properly, may gradually become more and more difficult to maintain. This gradual erosion slowly changes your application into a bowl of spaghetti code.
+
+What causes deterioration? How to prolong the life of your code? How to make it more maintainable? In this article, I'm sharing some of my findings and future plans that may give you a great solution for the problem.
+
+
+</div>
+  <p><a href="{page}blog/untangling-spaghetti-code-with-agile-toolkit{/}">Read more..</a></p>
+</article>
+
+
+<article class="atk-box-large">
+  <div class="atk-push">
+    <h3 class="atk-text-baseline-default atk-push-reset"> <a href="{page}blog/dsql-progress-alpha-version-released{/}">DSQL Progress - alpha version released!</a></h3>
+      <div class="atk-text-dimmed">Published in Blog on 30/03/2016</div>
+  </div>
+<div markdown="1">
+
+In [one of my previous posts](http://nearly.guru/blog/announcing-split-of-dsql-from-agile-toolkit) I have proposed to split a component that has been a part of our ATK library into a separate project called [DSQL](https://github.com/atk4/dsql). Me and [Imants](https://github.com/DarkSide666) have been [burning the midnight oil](https://github.com/atk4/dsql/graphs/punch-card) to move and refactor functionality into this separate project, and we have just [released the ALPHA1 version of the project](https://github.com/atk4/dsql/releases/tag/1.0.0-alpha).
+
+</div>
+  <p><a href="{page}blog/dsql-progress-alpha-version-released{/}">Read more..</a></p>
+</article>
+
+
 <article class="atk-box-large">
   <div class="atk-push">
     <h3 class="atk-text-baseline-default atk-push-reset"> <a href="{page}blog/dsql-progress-alpha-version-released{/}">DSQL Progress - alpha version released!</a></h3>
