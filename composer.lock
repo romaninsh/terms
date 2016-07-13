@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d19ecd54fc0b9102f130ee956a4327bf",
-    "content-hash": "34978d2372843963996a676af6a1de47",
+    "hash": "3e4dfbc95c83dd1d790e8358469e4709",
+    "content-hash": "138b5cd299c7658202333fcd5d37c91c",
     "packages": [
         {
             "name": "agile55/ga",
@@ -209,7 +209,7 @@
         },
         {
             "name": "romaninsh/mdcms",
-            "version": "1.1.1",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/romaninsh/mdcms.git",
@@ -222,8 +222,9 @@
                 "shasum": ""
             },
             "require": {
-                "erusev/parsedown-extra": "*",
-                "php": ">=5.3"
+                "atk4/atk4": "^4.3",
+                "erusev/parsedown": "~1.4",
+                "erusev/parsedown-extra": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -246,7 +247,7 @@
             "keywords": [
                 "atk4"
             ],
-            "time": "2016-01-03 21:25:17"
+            "time": "2016-07-13 11:33:19"
         }
     ],
     "packages-dev": [],
