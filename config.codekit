@@ -178,6 +178,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/frontend\/content\/blog\/blog-images\/admin-ui.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 267272,
+		"inputAbbreviatedPath": "\/frontend\/content\/blog\/blog-images\/admin-ui.png",
+		"outputAbbreviatedPath": "\/frontend\/content\/blog\/blog-images\/admin-ui.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/frontend\/content\/blog\/blog-images\/agile-css-widget-preview.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -383,6 +394,27 @@
 		"inputAbbreviatedPath": "\/frontend\/content\/blog\/the-price-of-opensource-project.md",
 		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/frontend\/content\/blog\/the-price-of-opensource-project.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/frontend\/content\/blog\/untangling-spaghetti-code-with-agile-toolkit.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/frontend\/content\/blog\/untangling-spaghetti-code-with-agile-toolkit.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/frontend\/content\/blog\/untangling-spaghetti-code-with-agile-toolkit.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2493,6 +2525,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/vendor\/atk4\/atk4\/lib\/App\/TestSuite.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/App\/TestSuite.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/vendor\/atk4\/atk4\/lib\/App\/Web.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2705,6 +2746,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/Controller\/DatabaseMigration.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/lib\/Controller\/Grid\/Format.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/Controller\/Grid\/Format.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2970,15 +3020,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/vendor\/atk4\/atk4\/lib\/Exception\/InstanceNotLoaded.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/Exception\/InstanceNotLoaded.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/vendor\/atk4\/atk4\/lib\/Exception\/Logic.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2993,15 +3034,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/Exception\/Migration.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/atk4\/atk4\/lib\/Exception\/NoObject.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/Exception\/NoObject.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3051,6 +3083,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/vendor\/atk4\/atk4\/lib\/Exception\/PathFinder.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/Exception\/PathFinder.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/vendor\/atk4\/atk4\/lib\/Exception\/SkipTests.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3083,6 +3124,33 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/Exception\/StopRender.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/lib\/Exception\/SystemProcessIO.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/Exception\/SystemProcessIO.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/lib\/Exception\/Template.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/Exception\/Template.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/lib\/Exception\/TMail.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/Exception\/TMail.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3627,15 +3695,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/vendor\/atk4\/atk4\/lib\/IOException.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/IOException.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/vendor\/atk4\/atk4\/lib\/jQuery.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3933,15 +3992,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/vendor\/atk4\/atk4\/lib\/ObsoleteException.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/ObsoleteException.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/vendor\/atk4\/atk4\/lib\/Order.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4068,20 +4118,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/vendor\/atk4\/atk4\/lib\/Relation\/ContainsMany.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/Relation\/ContainsMany.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/lib\/Relation\/ContainsOne.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/Relation\/ContainsOne.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/vendor\/atk4\/atk4\/lib\/SMlite.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/SMlite.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/atk4\/atk4\/lib\/SMliteException.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/SMliteException.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -4113,15 +4172,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/vendor\/atk4\/atk4\/lib\/SQLException.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/SQLException.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/vendor\/atk4\/atk4\/lib\/static.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4145,6 +4195,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/System\/ProcessIO.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/lib\/System\/ProcessIO\/Tester.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/System\/ProcessIO\/Tester.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -4217,6 +4276,105 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/TMail\/Compat.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/lib\/TMail\/Part.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/TMail\/Part.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/lib\/TMail\/Part\/Attachment.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/TMail\/Part\/Attachment.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/lib\/TMail\/Part\/Both.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/TMail\/Part\/Both.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/lib\/TMail\/Part\/HTML.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/TMail\/Part\/HTML.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/lib\/TMail\/Part\/Text.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/TMail\/Part\/Text.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/lib\/TMail\/Template.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/TMail\/Template.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/lib\/TMail\/Transport.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/TMail\/Transport.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/lib\/TMail\/Transport\/DBStore.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/TMail\/Transport\/DBStore.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/lib\/TMail\/Transport\/Discard.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/TMail\/Transport\/Discard.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/lib\/TMail\/Transport\/Echo.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/TMail\/Transport\/Echo.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/lib\/TMail\/Transport\/Fallback.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/lib\/TMail\/Transport\/Fallback.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -4457,6 +4615,15 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/vendor\/atk4\/atk4\/public\/atk4\/css\/fontello.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/css\/fontello.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/vendor\/atk4\/atk4\/public\/atk4\/css\/installer.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -4515,6 +4682,17 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/vendor\/atk4\/atk4\/public\/atk4\/font\/config.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/font\/config.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/font\/config-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/vendor\/atk4\/atk4\/public\/atk4\/images\/developer-tools.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4544,6 +4722,28 @@
 		"initialSize": 490761,
 		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/images\/installer-background.jpg",
 		"outputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/images\/installer-background.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/vendor\/atk4\/atk4\/public\/atk4\/images\/logo-login.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8444,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/images\/logo-login.png",
+		"outputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/images\/logo-login.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/vendor\/atk4\/atk4\/public\/atk4\/images\/logo-menu.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1464,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/images\/logo-menu.png",
+		"outputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/images\/logo-menu.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4581,45 +4781,23 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/vendor\/atk4\/atk4\/public\/atk4\/js\/jquery-2.0.3.min.js": {
+	"\/vendor\/atk4\/atk4\/public\/atk4\/js\/jquery-2.2.1.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/js\/jquery-2.0.3.min.js",
-		"outputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/js\/min\/jquery-2.0.3.min-min.js",
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/js\/jquery-2.2.1.min.js",
+		"outputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/js\/min\/jquery-2.2.1.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/vendor\/atk4\/atk4\/public\/atk4\/js\/jquery-ui-1.10.3.min.js": {
+	"\/vendor\/atk4\/atk4\/public\/atk4\/js\/jquery-ui-1.11.4.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/js\/jquery-ui-1.10.3.min.js",
-		"outputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/js\/min\/jquery-ui-1.10.3.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/vendor\/atk4\/atk4\/public\/atk4\/js\/jquery-ui-1.11.beta2.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/js\/jquery-ui-1.11.beta2.min.js",
-		"outputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/js\/min\/jquery-ui-1.11.beta2.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/vendor\/atk4\/atk4\/public\/atk4\/js\/jquery-ui-1.11.master.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/js\/jquery-ui-1.11.master.js",
-		"outputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/js\/min\/jquery-ui-1.11.master-min.js",
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/js\/jquery-ui-1.11.4.min.js",
+		"outputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/js\/min\/jquery-ui-1.11.4.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -4631,17 +4809,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/js\/jquery-ui.buttonset-vertical.js",
 		"outputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/js\/min\/jquery-ui.buttonset-vertical-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/vendor\/atk4\/atk4\/public\/atk4\/js\/jquery.ui.selectmenu.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/js\/jquery.ui.selectmenu.js",
-		"outputAbbreviatedPath": "\/vendor\/atk4\/atk4\/public\/atk4\/js\/min\/jquery.ui.selectmenu-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -5466,6 +5633,26 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/vendor\/atk4\/atk4\/templates\/view\/console.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/templates\/view\/console.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/templates\/view\/console.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/templates\/view\/console.jade",
+		"outputAbbreviatedPath": "\/vendor\/atk4\/atk4\/templates\/view\/console.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
 	"\/vendor\/atk4\/atk4\/templates\/view\/developer-tools.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -5531,27 +5718,45 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/vendor\/atk4\/atk4\/tests\/atk43_essential\/00-test1.php": {
+	"\/vendor\/atk4\/atk4\/tests\/atk43_00_hello_world\/00-generic-test-object.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_essential\/00-test1.php",
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_00_hello_world\/00-generic-test-object.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/vendor\/atk4\/atk4\/tests\/atk43_essential\/readme.md": {
+	"\/vendor\/atk4\/atk4\/tests\/atk43_00_hello_world\/01-atk-test-object.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_00_hello_world\/01-atk-test-object.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/tests\/atk43_00_hello_world\/readme.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_00_hello_world\/readme.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/tests\/atk43_00_hello_world\/readme.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 0,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
 		"escapeLineBreaks": 0,
 		"fileType": 4096,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_essential\/readme.md",
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_00_hello_world\/readme.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_essential\/readme.html",
+		"outputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_00_hello_world\/readme.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -5560,6 +5765,177 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/vendor\/atk4\/atk4\/tests\/atk43_01_core\/01-objects1.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_01_core\/01-objects1.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/tests\/atk43_01_core\/02-views.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_01_core\/02-views.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/tests\/atk43_01_core\/03-model1.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_01_core\/03-model1.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/tests\/atk43_01_core\/readme.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_01_core\/readme.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/tests\/atk43_01_core\/readme.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_01_core\/readme.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_01_core\/readme.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/vendor\/atk4\/atk4\/tests\/atk43_02_validator\/01-basic.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_02_validator\/01-basic.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/tests\/atk43_02_validator\/02-rules.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_02_validator\/02-rules.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/tests\/atk43_02_validator\/readme.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_02_validator\/readme.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/tests\/atk43_02_validator\/readme.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_02_validator\/readme.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_02_validator\/readme.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/vendor\/atk4\/atk4\/tests\/atk43_model_relations\/00basic.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_model_relations\/00basic.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/tests\/atk43_model_relations\/01json.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_model_relations\/01json.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/tests\/atk43_model_relations\/02many-basic.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_model_relations\/02many-basic.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/tests\/atk43_model_relations\/03many-json.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_model_relations\/03many-json.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/atk4\/atk4\/tests\/atk43_model_relations\/readme.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_model_relations\/readme.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/atk43_model_relations\/readme.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/vendor\/atk4\/atk4\/tests\/run_tests.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/atk4\/atk4\/tests\/run_tests.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/vendor\/atk4\/atk4\/tools\/phpcs\/Sniffs\/ATK4\/ATK4CodingStandard.php": {
 		"fileType": 8192,
@@ -5620,6 +5996,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/vendor\/composer\/autoload_real.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/composer\/autoload_static.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/composer\/autoload_static.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
