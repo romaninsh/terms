@@ -18,6 +18,8 @@ The presentation will finish with few practical use-cases and a short demo of "A
 
 (30 minutes slides with a demo)
 
+[Slides on slideshare.net](http://www.slideshare.net/romaninsh/love-and-hate-relationship-between-orm-and-query-builders)
+
 ## Agile Toolkit - A most popular PHP UI Framework you never heard of
 
 We often talk about consistent UI and how it is important in our web apps, but our software frameworks rarely help us in keeping our UI consistent. Object Oriented UI which is so familiar to desktop and mobile developers could be a solution for our Web Apps.
