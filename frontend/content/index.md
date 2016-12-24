@@ -1,6 +1,26 @@
 <h2 class="atk-push-large atk-align-center atk-text-caps font-amatic">Latest from the <a href='{page}blog{/}'>Blog</a></h2>
 
 
+<article class="atk-box-large">
+  <div class="atk-push">
+    <h3 class="atk-text-baseline-default atk-push-reset"> <a href="{page}blog/homemade-replacement-for-codekit{/}">Homemade Replacement for CodeKit</a></h3>
+      <div class="atk-text-dimmed">Published in Blog on 22/12/2016</div>
+  </div>
+<div markdown="1">
+
+Since I have purchased CodeKit I have been having problems, where it
+occassionally hangs, consumes too much memory or crashes. I it only to
+compile JADE/PUG files, so I decided to create my own solution based on
+some open-source utilities.
+
+I appreciate all the advanced features of CodeKit, but if you are looking
+for just a lightweight solution to compile your files instantly, then my script
+will work for you:
+
+</div>
+  <p><a href="{page}blog/homemade-replacement-for-codekit{/}">Read more..</a></p>
+</article>
+
 
 <article class="atk-box-large">
   <div class="atk-push">
