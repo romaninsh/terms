@@ -1,6 +1,6 @@
 # Disjoint Subtypes in PHP
 
-The pattern of disjoint subtypes have been helping me throughout my PHP career. I started using it back in 2003 [when I was building a web portal](http://web.archive.org/web/20030204095702/http://team.void.lv/) for our schools "computer club", however later I was using the approach in some of the commercial projects too. 
+The pattern of disjoint subtypes has been helping me throughout my PHP career. I started using it back in 2003 [when I was building a web portal] for our schools "computer club" (http://web.archive.org/web/20030204095702/http://team.void.lv/). However, I later used the approach with commercial projects. 
 
 I'd like to tell you more about Disjoint Subtypes approach, what are the benefits of the approach and how it can be implemented and used efficiently in modern PHP.
 
@@ -22,23 +22,23 @@ My goal with this project was to create a website where various users could auth
 
 ### 1. Database Schema and Object Inheritance
 
-All of the objects, regardless of their type have been stored in the table "object". The table fields represented only the properties that are common for all the objects. For my example I have used (id, type, owner_id, name).
+All of the objects, regardless of their type, have been stored in the table "object". The table fields represented only the properties that are common for all the objects. For my example I have used (id, type, owner_id, name).
 
-There were additional tables, that would be joined with `object` in order to supply additional fields. The "User" object require "password" field and "Article" object require "body" text field.
+There were additional tables that would be joined with `object` in order to supply additional fields. The "User" object requires a "password" field and "Article" object require "body" text field.
 
-A simpler option is to cram all the fields into the "object" but this results in clutter and overhead, so instead the following structure is used:
+A simpler option is to cram all the fields into the "object" but this results in clutter and overhead. So, instead the following structure is used:
 
 ![schema1](blog-images-data/schema1.png)
 
-It's important to note that only object with type="article" would have a corresponding record in "article" table.
+It's important to note that only object with type="article" would have a corresponding record in the "article" table.
 
 ### 2. Relations
 
-Although traditional "relations" are used sometimes, for instance, each object has "user_id" that contains ID of the User object, unification of all the objects allows us to link any two objects with a "generic" relation.
+Although sometimes traditional "relations" are used (for instance, each object has "user_id" that contains ID of the User object), unification of all the objects allows us to link any two objects with a "generic" relation.
 
 ![schema2](blog-images-data/schema2.png)
 
-This gives us very powerful ability to create new relationship between any two objects without altering the database structure:
+This gives us a very powerful ability to create a new relationship between any two objects without altering the database structure:
 
 ![object-schema](blog-images-data/object-schema.png)
 
@@ -46,21 +46,21 @@ This gives us very powerful ability to create new relationship between any two o
 
 ### 3. Unified Object Handling
 
-Now that we have a unified way to store objects, the portal interface has also been created in a unified way. When ID is passed to a page, it will determine a type of the object and display it accordingly. The relationships are organised and checked based on types.
+Now that we have a unified way to store objects, the portal interface has also been created in a unified manner. When ID is passed to a page, it will determine the type of object and display it accordingly. The relationships are organised and checked based on types.
 
 ## Disjoint Subtypes Today (2017)
 
-PHP has been different to what it was before, it's more powerful and our projects can rely on high quality 3rd party libraries, frameworks and extensions today. When I was building "Team Portal" I had to design and write all the queries directly in the code. Today we can deal this through "Persistence Abstraction" - a pattern that unifies and simplifies your work with the databases.
+PHP has been different to what it was before. It is more powerful and today our projects can rely on high quality 3rd party libraries, frameworks and extensions. When I was building "Team Portal", I had to design and write all the queries directly in the code. Now we can deal with this through "Persistence Abstraction" - a pattern that unifies and simplifies your work with the databases.
 
-To put it simply - whenever I was writing code in 2003, I was thinking about "blue boxes". Today it's possible to think on the level of "yellow boxes".
+To put it simply, in 2003, whenever I was writing code, I was thinking about "blue boxes". Thirteen years later and it's possible to think on the level of "yellow boxes".
 
-My next implementation uses [Agile Data](https://github.io/atk4/data), so if you want to try out examples, you should install it:
+My next implementation uses [Agile Data](https://github.io/atk4/data). So if you would like to try out examples, you should install it:
 
 ``` bash
 composer require atk4/data
 ```
 
-Agile Data is an open-source general-purpose database abstraction framework for PHP. Its flexibility allow us to implement a "more complex" database patterns, such as Disjoint Subtypes and hide it as "implementation detail" from the rest of your application.
+Agile Data is an open-source/general-purpose database abstraction framework for PHP. Its flexibility allows the implementation of "more complex" database patterns, such as Disjoint Subtypes, and hide it as "implementation detail" from the rest of your application.
 
 ### 1. Define Object
 
@@ -80,7 +80,7 @@ class Object extends \atk4\data\Model
 }
 ```
 
-Object can be extended and it's best if our PHP classes also follow inheritance. I'm defining "Article", "User" and "Group" next. The Model definitions use a standard Agile Data syntax (See: http://agile-data.readthedocs.io/en/develop/model.html and http://agile-data.readthedocs.io/en/develop/joins.html)
+Object can be extended and it's best if our PHP classes to also follow inheritance. I'm defining "Article", "User" and "Group" next. The Model definitions use a standard Agile Data syntax (See: http://agile-data.readthedocs.io/en/develop/model.html and http://agile-data.readthedocs.io/en/develop/joins.html)
 
 ``` php
 class Article extends Object
@@ -121,7 +121,7 @@ class Group extends Object
 
 ### 2. Using Objects
 
-Our goal with using Data Abstraction framework is to make sure the rest of your application can now work with "SubTypes" without any extra though.
+Our goal with using Data Abstraction framework is to make sure the rest of your application can now work with "SubTypes" without any extra thought.
 
 Lets look at some use-cases and I'll provide reference code.
 
@@ -162,7 +162,7 @@ $db->addHook('afterAdd', function($db, $obj) use ($logged_in_user) {
 
 #### Deleting All Object by a User
 
-We can rely on MySQL constrain to get rid of all the related records, once the object is deleted, so the code to delete all objects belonging to a user:
+We can rely on MySQL constrain to get rid of all the related records and once the object is deleted, so is the code to delete all objects belonging to a user:
 
 ``` php
 $objects = new Object($db);
@@ -199,7 +199,7 @@ $this->hasMany('parent_relation', [new Relation(), 'their_field'=>'child_id']);
 $this->hasMany('child_relation', [new Relation(), 'their_field'=>'parent_id']);
 ```
 
-Agile Data supports custom 'References', that makes it very handy for us. Next code is a modified version of 'Article' class to enable 'comments':
+Agile Data supports custom 'References' which makes it very handy for us. Next code is a modified version of 'Article' class to enable 'comments':
 
 ``` php
 class Article extends Object
@@ -231,7 +231,7 @@ $this->addReference('comments', function($m){
 });
 ```
 
-When 'ref()' is called, the callback will traverse 'child_relation, as defined in the Object, but will set oject property 'child_class' as specified. The return of this method call is 'Relation'.
+When 'ref()' is called, the callback will traverse 'child_relation, as defined in the Object, but will set object property 'child_class' as specified. The return of this method call is 'Relation'.
 
 ``` php
 ref('child_relation', ['child_class'=>new Article()]);
@@ -258,9 +258,9 @@ $comments = $article->ref('comments');
 echo $comments->action('count')->getOne();
 ```
 
-This syntax is perrfectly compatible with other references that Agile Data defines (http://agile-data.readthedocs.io/en/develop/references.html). In reality the `$comments` object of class 'Article' will be automatically conditioned to be related with `$article` through a Relation with type='type'.
+This syntax is perfectly compatible with other references that Agile Data defines (http://agile-data.readthedocs.io/en/develop/references.html). In reality, the `$comments` object of class 'Article' will be automatically conditioned to be related with `$article` through a Relation with type='type'.
 
-In a similar fashon lets define Group's connections:
+In a similar fashon, lets define Group's connections:
 
 ``` php
 $this->addReference('contents', function($m) {
@@ -273,7 +273,7 @@ $this->addReference('contents', function($m) {
 
 ### 4. Using Objects and Relations
 
-Finally, I'll go over several use-cases. (please note that in the use-cases code is kept short and DI is rarely used).
+Finally, I'll go over several use-cases. (please note that in the use-cases, code is kept short and DI is rarely used).
 
 #### Root Folder Contents
 
@@ -310,7 +310,7 @@ function addExistingComment(Article $comment) {
 
 #### New Comment (improved version)
 
-Agile Data has various ways to automate and abstract logic, so here is another implementation, which is more suitable for adding new comments. The philosophy in Agile Data advise to leave database opeartion to the latest moment possible, so I'll be transparently adding "Hook" to the Article model which will link it to the parent after it's saved.
+Agile Data has various ways to automate and abstract logic, so here is another implementation which is more suitable for adding new comments. The philosophy in Agile Data advise to leave database operation to the latest moment possible, so I'll be transparently adding "Hook" to the Article model which will link it to the parent after it's saved.
 
 ``` php
 function newComment() {
@@ -346,7 +346,7 @@ $comment->import([
 
 #### UI Integration
 
-The $comment model is also very suitable to pass into the UI layer and link with the presentation logic. If you are using [https://github.com/atk4/ui](Agile UI) or [https://agiletoolkit.org/](Agile Toolkit) then your code to display:
+The $comment model is also very suitable to pass into the UI layer and link with the presentation logic. If you are using [https://github.com/atk4/ui](Agile UI) or [https://agiletoolkit.org/](Agile Toolkit), then your code to display:
 
 ``` php
 $article = new Article($db);
