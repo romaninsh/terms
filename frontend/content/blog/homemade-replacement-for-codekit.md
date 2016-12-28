@@ -16,7 +16,7 @@ https://gist.github.com/romaninsh/e6c783ec916ae176f55e3ee6b5e43b73
 
 Make sure you have homebrew installed. In the terminal:
 
-``` script
+``` bash
 mkdir ~/bin/
 wget https://gist.githubusercontent.com/romaninsh/e6c783ec916ae176f55e3ee6b5e43b73/raw/5d39c8b7f3806bf2ae8b4f4e19bf5834367be93c/pugwatch > ~/bin/pugwatch
 chmod +x ~/bin/pugwatch
@@ -24,7 +24,7 @@ chmod +x ~/bin/pugwatch
 
 Next, in the terminal go to your project folder (or just home folder) and run pugwatch
 
-``` script
+``` bash
 cd ~/Sites/
 pugwatch
 ```

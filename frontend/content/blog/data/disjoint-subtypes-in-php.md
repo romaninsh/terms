@@ -373,4 +373,22 @@ $form->onSubmit(function($form) {
     ];
 });
 ```
+## About this Article
 
+Apologies for the long post. I hoped it was educational. 
+
+What else would you like me to write about?
+
+## Comments
+
+<div id="disqus_thread"></div>
+<script>
+(function() {
+var d = document, s = d.createElement('script');
+
+s.src = '//nearlyguru.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
