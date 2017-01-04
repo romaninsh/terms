@@ -346,7 +346,7 @@ $comment->import([
 
 #### UI Integration
 
-The $comment model is also very suitable to pass into the UI layer and link with the presentation logic. If you are using [https://github.com/atk4/ui](Agile UI) or [https://agiletoolkit.org/](Agile Toolkit), then your code to display:
+The $comment model is also very suitable to pass into the UI layer and link with the presentation logic. If you are using [Agile UI](https://github.com/atk4/ui) or [Agile Toolkit](https://agiletoolkit.org/), then the complete UI integration code could be as simple as this:
 
 ``` php
 $article = new Article($db);
@@ -373,4 +373,5 @@ $form->onSubmit(function($form) {
     ];
 });
 ```
+
 

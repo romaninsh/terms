@@ -1,6 +1,28 @@
 <h2 class="atk-push-large atk-align-center atk-text-caps font-amatic">Latest from the <a href='{page}blog{/}'>Blog</a></h2>
 
 
+
+<article class="atk-box-large">
+  <div class="atk-push">
+    <h3 class="atk-text-baseline-default atk-push-reset"> <a href="{page}blog/data/disjoint-subtypes-in-php{/}">Disjoint Subtypes in PHP</a></h3>
+      <div class="atk-text-dimmed">Published in Blog on 04/01/2017</div>
+  </div>
+<div markdown="1">
+
+
+The pattern of disjoint subtypes has been helping me throughout my PHP career. I started using it back in 2003 [when I was building a web portal] for our schools "computer club" (http://web.archive.org/web/20030204095702/http://team.void.lv/). However, I later used the approach with commercial projects. 
+
+I'd like to tell you more about Disjoint Subtypes approach, what are the benefits of the approach and how it can be implemented and used efficiently in modern PHP.
+
+</div>
+  <p><a href="{page}blog/data/disjoint-subtypes-in-php{/}">Read more..</a></p>
+</article>
+
+
+
+
+
+
 <article class="atk-box-large">
   <div class="atk-push">
     <h3 class="atk-text-baseline-default atk-push-reset"> <a href="{page}blog/homemade-replacement-for-codekit{/}">Homemade Replacement for CodeKit</a></h3>
