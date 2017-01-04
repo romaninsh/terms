@@ -167,7 +167,7 @@ We can rely on MySQL constrain to get rid of all the related records and once th
 ``` php
 $objects = new Object($db);
 $object->addCondition('owner_id', $user_id);
-$object->deleteAll();
+$object->action('delete')->execute();
 ```
 
 ### 3. Relations
@@ -213,7 +213,7 @@ class Article extends Object
         $this->j_article = $this->join('article.object_id');
         $this->j_article->addField('body');
       
-        $this->addReference('comments', function($m) {
+        $this->addRef('comments', function($m) {
             return $this
               ->ref('child_relation', ['child_class'=>new Article()])
               ->addCondition('type', 'comment')
@@ -227,7 +227,7 @@ If you are new to Agile Data and it's patterns, this can seem too "magical", so 
 
 Our first line defines a custom "Reference" which can be used with 'ref()' later:
 ``` php
-$this->addReference('comments', function($m){
+$this->addRef('comments', function($m){
 });
 ```
 
@@ -263,7 +263,7 @@ This syntax is perfectly compatible with other references that Agile Data define
 In a similar fashon, lets define Group's connections:
 
 ``` php
-$this->addReference('contents', function($m) {
+$this->addRef('contents', function($m) {
     return $this
       ->ref('child_relation', ['child_class'=>new Object()])
       ->addCondition('type', 'contain')
@@ -362,20 +362,20 @@ $comment_list->setModel($article->ref('comments'));
 // display a form for posting new comment
 $form = $layout->add('Form', ['spot'=>'NewComment']);
 $form->setModel($article->newComment());
-$form->onSubmit(function($form) {
+$form->onSubmit(function($form)use($comment_list) {
   
     // on submission, create new Comment article, link it and refresh
     // list of comments.
     $form->save();
     return [
       $form->js()->reset(),
-      $previous_comments->js()->reload()
+      $comment_list->js()->reload()
     ];
 });
 ```
 ## About this Article
 
-Apologies for the long post. I hoped it was educational. 
+Apologies for the long post. I hope it was educational. 
 
 What else would you like me to write about?
 
