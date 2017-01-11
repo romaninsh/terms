@@ -44,6 +44,70 @@ This gives us a very powerful ability to create a new relationship between any t
 
 (Note: Today a similar approach is used in Graph databases)
 
+And here is full DDL script to create database structure as above:
+
+``` sql
+CREATE TABLE `object` (
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `type` VARCHAR(255) NULL,
+  `name` VARCHAR(255) NULL,
+  `owner_id` INT UNSIGNED NOT NULL,
+  PRIMARY KEY (`id`),
+  INDEX `fk_object_object_idx` (`owner_id` ASC),
+  CONSTRAINT `fk_object_object`
+    FOREIGN KEY (`owner_id`)
+    REFERENCES `object` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+CREATE TABLE `article` (
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `object_id` INT UNSIGNED NOT NULL,
+  `body` TEXT NULL,
+  PRIMARY KEY (`id`),
+  INDEX `fk_article_object1_idx` (`object_id` ASC),
+  CONSTRAINT `fk_article_object1`
+    FOREIGN KEY (`object_id`)
+    REFERENCES `object` (`id`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB;
+
+CREATE TABLE `user` (
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `object_id` INT UNSIGNED NOT NULL,
+  `password` VARCHAR(255) NULL,
+  PRIMARY KEY (`id`),
+  INDEX `fk_user_object1_idx` (`object_id` ASC),
+  CONSTRAINT `fk_user_object1`
+    FOREIGN KEY (`object_id`)
+    REFERENCES `object` (`id`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB;
+
+CREATE TABLE `relation` (
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `parent_id` INT UNSIGNED NOT NULL,
+  `child_id` INT UNSIGNED NOT NULL,
+  `type` VARCHAR(255) NULL,
+  PRIMARY KEY (`id`),
+  INDEX `fk_relation_object1_idx` (`parent_id` ASC),
+  INDEX `fk_relation_object2_idx` (`child_id` ASC),
+  CONSTRAINT `fk_relation_object1`
+    FOREIGN KEY (`parent_id`)
+    REFERENCES `object` (`id`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT `fk_relation_object2`
+    FOREIGN KEY (`child_id`)
+    REFERENCES `object` (`id`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB;
+```
+
 ### 3. Unified Object Handling
 
 Now that we have a unified way to store objects, the portal interface has also been created in a unified manner. When ID is passed to a page, it will determine the type of object and display it accordingly. The relationships are organised and checked based on types.
@@ -167,7 +231,7 @@ We can rely on MySQL constrain to get rid of all the related records and once th
 ``` php
 $objects = new Object($db);
 $object->addCondition('owner_id', $user_id);
-$object->deleteAll();
+$object->action('delete')->execute();
 ```
 
 ### 3. Relations
@@ -213,7 +277,7 @@ class Article extends Object
         $this->j_article = $this->join('article.object_id');
         $this->j_article->addField('body');
       
-        $this->addReference('comments', function($m) {
+        $this->addRef('comments', function($m) {
             return $this
               ->ref('child_relation', ['child_class'=>new Article()])
               ->addCondition('type', 'comment')
@@ -227,7 +291,7 @@ If you are new to Agile Data and it's patterns, this can seem too "magical", so 
 
 Our first line defines a custom "Reference" which can be used with 'ref()' later:
 ``` php
-$this->addReference('comments', function($m){
+$this->addRef('comments', function($m){
 });
 ```
 
@@ -263,7 +327,7 @@ This syntax is perfectly compatible with other references that Agile Data define
 In a similar fashon, lets define Group's connections:
 
 ``` php
-$this->addReference('contents', function($m) {
+$this->addRef('contents', function($m) {
     return $this
       ->ref('child_relation', ['child_class'=>new Object()])
       ->addCondition('type', 'contain')
@@ -362,20 +426,20 @@ $comment_list->setModel($article->ref('comments'));
 // display a form for posting new comment
 $form = $layout->add('Form', ['spot'=>'NewComment']);
 $form->setModel($article->newComment());
-$form->onSubmit(function($form) {
+$form->onSubmit(function($form)use($comment_list) {
   
     // on submission, create new Comment article, link it and refresh
     // list of comments.
     $form->save();
     return [
       $form->js()->reset(),
-      $previous_comments->js()->reload()
+      $comment_list->js()->reload()
     ];
 });
 ```
 ## About this Article
 
-Apologies for the long post. I hoped it was educational. 
+Apologies for the long post. I hope it was educational. 
 
 What else would you like me to write about?
 
