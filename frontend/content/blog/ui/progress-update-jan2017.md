@@ -60,16 +60,18 @@ The code above makes it super-really for user to create a View that includes Ico
 
 ``` php
 $layout->add(new \atk4\ui\FormField\Line([
-    'placeholder'=>'enter URL',
+    'placeholder'=>'Search users',
     'label'=>'http://'
 ]));
 
 $layout->add(new \atk4\ui\FormField\Line([
+    'placeholder'=>'Amount',
     'label'=>'$', 
     'labelRight'=>new \atk4\ui\Label(['.00', 'basic'])
 ]));
 
 $layout->add(new \atk4\ui\FormField\Line([
+    'placeholder'=>'enter tags',
     'iconLeft'  => 'tags',
     'labelRight'=> new \atk4\ui\Label(['Add Tag', 'tag']),
 ]));
