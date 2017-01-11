@@ -1,6 +1,6 @@
 # Agile Toolkit progress update (Jan 2017)
 
-![agile-toolkit-progress-2017](blog-images-ui/agile-toolkit-progress-2017.png)
+![agile-toolkit-progress-2017](../../images/ui/agile-toolkit-progress-2017.png)
 
 Over the holidays I've been working away on [Agile UI](http://github.com/atk4/ui) to achieve a considerable progress. The dependencies are pretty tangled up, but I've tried to explain them in the diagram above.
 
@@ -71,7 +71,7 @@ $layout->add(new \atk4\ui\FormField\Line([
 
 Each line renders into a View producing output like this:
 
-![ui-field-elements](blog-images-ui/ui-field-elements.png)
+![ui-field-elements](../../images/ui/ui-field-elements.png)
 
 ## Form Update
 

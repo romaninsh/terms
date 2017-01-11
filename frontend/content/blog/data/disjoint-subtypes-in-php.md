@@ -12,7 +12,7 @@ I'd like to tell you more about Disjoint Subtypes approach, what are the benefit
 
 </style>
 
-![teamportal](blog-images-data/teamportal.png)
+![teamportal](../../images/data/teamportal.png)
 
 My goal with this project was to create a website where various users could authenticate, create objects from a pre-defined types then link them to the objects that other users have created. Above you could see the objects of the following types:
 
@@ -28,7 +28,7 @@ There were additional tables that would be joined with `object` in order to supp
 
 A simpler option is to cram all the fields into the "object" but this results in clutter and overhead. So, instead the following structure is used:
 
-![schema1](blog-images-data/schema1.png)
+![schema1](../../images/data/schema1.png)
 
 It's important to note that only object with type="article" would have a corresponding record in the "article" table.
 
@@ -36,11 +36,11 @@ It's important to note that only object with type="article" would have a corresp
 
 Although sometimes traditional "relations" are used (for instance, each object has "user_id" that contains ID of the User object), unification of all the objects allows us to link any two objects with a "generic" relation.
 
-![schema2](blog-images-data/schema2.png)
+![schema2](../../images/data/schema2.png)
 
 This gives us a very powerful ability to create a new relationship between any two objects without altering the database structure:
 
-![object-schema](blog-images-data/object-schema.png)
+![object-schema](../../images/data/object-schema.png)
 
 (Note: Today a similar approach is used in Graph databases)
 
