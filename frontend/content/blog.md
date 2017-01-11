@@ -8,6 +8,30 @@ If you have a question or challenge that you would like to write about on my blo
 
 
 
+
+
+
+<article class="atk-box-large">
+  <div class="atk-push">
+    <h3 class="atk-text-baseline-default atk-push-reset"> <a href="{page}blog/ui/progress-update-jan2017{/}">Agile Toolkit progress update (Jan 2017)</a></h3>
+      <div class="atk-text-dimmed">Published by <a href="https://twitter.com/romaninsh" target="_blank">@romaninsh</a> on 11/01/2017</div>
+  </div>
+<div markdown="1">
+
+Over the holidays I've been working away on [Agile UI](http://github.com/atk4/ui) to achieve a considerable progress. The dependencies are pretty tangled up, but I've tried to explain them in the diagram above.
+
+**If you are not familiar with "Agile UI" - it is an open-source project I'm currently developing with a goal to create "Out-of-the-box UI" that any PHP developer would be able to "use" instead of "reinventing".**
+
+
+</div>
+  <p><a href="{page}blog/ui/progress-update-jan2017{/}">Read more..</a></p>
+</article>
+
+
+
+
+
+
 <article class="atk-box-large">
   <div class="atk-push">
     <h3 class="atk-text-baseline-default atk-push-reset"> <a href="{page}blog/data/disjoint-subtypes-in-php{/}">Disjoint Subtypes in PHP</a></h3>

@@ -6,6 +6,12 @@ Over the holidays I've been working away on [Agile UI](http://github.com/atk4/ui
 
 **If you are not familiar with "Agile UI" - it is an open-source project I'm currently developing with a goal to create "Out-of-the-box UI" that any PHP developer would be able to "use" instead of "reinventing".**
 
+<style>
+
+  img { width: 100% }
+
+</style>
+
 ## Render Tree and basic UI components
 
 Agile UI now has a very stable render mechanics. There are some awesome and simple way to integrate more elements from Semantic UI and if we need to add a new box, panel or icon class, it's as simple as this:
