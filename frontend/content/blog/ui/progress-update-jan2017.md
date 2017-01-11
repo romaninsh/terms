@@ -107,7 +107,7 @@ A form will have 3 ways of operation: "POST", "GET" and "API" with the latest be
 
 ## Agile Data Integration
 
-I'm looking to use Agile Data Persistence concept to implement "UI Persistence". From a viewpoint of a domain model, displaying it inside a form or inside a grid is just yet another way of persisting it. This works amazigly well with our ability to convert / format types as well as both store and read data.
+I'm looking to use Agile Data Persistence concept to implement "UI Persistence". From a viewpoint of a domain model, displaying it inside a form or inside a grid is just yet another way of persisting it. This works amazingly well with our ability to convert / format types as well as both store and read data.
 
 In other words - Form object is a way for a "Model" to store data. Once form is submitted, data can be read from the "UI" persistence just to be saved into a more permanent one - Database.
 
