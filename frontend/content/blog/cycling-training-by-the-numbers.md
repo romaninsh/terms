@@ -16,7 +16,7 @@ Most serious cyclists would use Garmin. I think it's a great device, but I have 
 
 I use Apple Watch (first model) which can now measure and actively transmit HR to iPhone's HealthKit making it available to all apps. Not a very reliable solution, sometimes it looses the reading and battery only holds for 5 hours, but it works 95% of the time.
 
-Cadience sensor is antother must-have, I've picked [one from Wahoo for £30](https://www.amazon.co.uk/gp/product/B01E0YRQIA/ref=ya_st_dp_summary), accuracy hasn't been great but hopefully the firmware update I installed this morning would take care of that.
+Cadence sensor is antother must-have, I've picked [one from Wahoo for £30](https://www.amazon.co.uk/gp/product/B01E0YRQIA/ref=ya_st_dp_summary), accuracy hasn't been great but hopefully the firmware update I installed this morning would take care of that.
 
 For in-door cycling, speed sensor is also good, as it adds some realism to the excercises.
 
@@ -24,7 +24,7 @@ For in-door cycling, speed sensor is also good, as it adds some realism to the e
 
 I use 3 type of software - navigation, tracking and music. For the navigation I have used TomTom in the past, but last 2 years I have switched to [Komoot](https://www.komoot.com). I'm not sure why it's not being more popular in UK, it has amazing map (based on [opencyclemaps](https://www.opencyclemap.org)), navigation directions and social features. Multi-point route planning can be done in the browser, on a big screen or directly in the app. Various pre-sets allow to plan route for cycling with kids, road cycling or off-road. For comparison, Google Maps will give you always some type of one-fits-all cycle route.
 
-Cyclemeter is a very powerful software, the best you can find really. Can't list all the great features here, but the most unique ones would be voice guidance for hitting your HR / Cadience targets, complex activity planning and historical stats.
+Cyclemeter is a very powerful software, the best you can find really. Can't list all the great features here, but the most unique ones would be voice guidance for hitting your HR / Cadence targets, complex activity planning and historical stats.
 
 ## Goal 1: Consistency
 
