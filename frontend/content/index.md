@@ -1,6 +1,30 @@
 <h2 class="atk-push-large atk-align-center atk-text-caps font-amatic">Latest from the <a href='{page}blog{/}'>Blog</a></h2>
 
 
+<article class="atk-box-large">
+  <div class="atk-push">
+    <h3 class="atk-text-baseline-default atk-push-reset"> <a href="{page}blog/cycling-training-by-the-numbers{/}">Cycling training by the numbers</a></h3>
+      <div class="atk-text-dimmed">Published by <a href="https://twitter.com/romaninsh" target="_blank">@romaninsh</a> on 08/05/2017</div>
+  </div>
+<div markdown="1">
+
+From the start of this year I've been more focused on my cycling. With my new in-door bycicle mount I was able to start cycling during the cold / rainy days.
+
+Being a "geek" I also decided to learn the theory and focus on recording all the possible stats. There are [several good articles that focus on CTL, ATL, TSB](https://www.google.co.uk/search?q=understanding+ctl+atl+cycling), but I wanted to rather share my own experience.
+
+## Gear, Devices and Software
+
+I've always cycled a little. When I lived in London I had my first road bike for the daily commute. It cost just about £300 on Amazon [for my first bike](https://www.amazon.co.uk/Vittesse-Sprint-21-Speed-Alloy-Racing/dp/B003DZ15CQ/ref=sr_1_5?s=cycling&ie=UTF8&qid=1494150781&sr=1-5&keywords=road+bike). After I've moved to the Hertfordshire and started enjoying road cycling more I have upgraded to Trek 1.1.
+
+While my cycling equipment has been pretty basic, I have focused on performance data and planning using that to maximize my performance and make cycling more fun.
+
+
+</div>
+  <p><a href="{page}blog/cycling-training-by-the-numbers{/}">Read more..</a></p>
+</article>
+
+
+
 
 
 <article class="atk-box-large">

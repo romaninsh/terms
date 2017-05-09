@@ -1,10 +1,8 @@
----
-typora-copy-images-to: ./blog-images
----
+# Cycling training by the numbers
 
-From the start of this year I've been more focused on my cycling training. With my new in-door bycicle mount I was able to start cycling during the cold / rainy days.
+From the start of this year I've been more focused on my cycling. With my new in-door bycicle mount I was able to start cycling during the cold / rainy days.
 
-Being a "geek" I also decided to learn the theory and focus on recording all the possible stats. There are [several good articles that focus on CTL, ATL, TSB](https://www.google.co.uk/search?client=safari&rls=en&q=understanding+ctl+atl+cycling&ie=UTF-8&oe=UTF-8&gfe_rd=cr&ei=FO4OWdnZIYXW8Afuz6PAAQ), but I wanted to rather share my own experience.
+Being a "geek" I also decided to learn the theory and focus on recording all the possible stats. There are [several good articles that focus on CTL, ATL, TSB](https://www.google.co.uk/search?q=understanding+ctl+atl+cycling), but I wanted to rather share my own experience.
 
 ## Gear, Devices and Software
 
@@ -32,7 +30,7 @@ Cyclemeter is a very powerful software, the best you can find really. Can't list
 
 My first challenge was consistency with my training. I have looked in many places and settled on [Today's Plan App](http://todaysplan.com.au). It collect data about your fittness, amount of available time, habits and goals and creates a work-out schedule for you. It's not just a simple repetitive workout, but a very enjoyable one, with a lot of varietty, control over your load. It's a pleasure to follow the excercises and I've found that all the workouts would be very considerate to my level of fatigue.
 
-[![consistency](blog-images/consistency.png)](blog-images/consistency.png)
+[<img src="/blog-images/consistency.png" width="100%"/>](/blog-images/consistency.png)
 
 (click for zoom). 
 
@@ -42,9 +40,11 @@ This is my custom-configured dashboard where I make sure that i'm not pusing pas
 
 Once I managed to get my training consistently (4 times a week) my next goal was to learn how to control the heart rate. When you excercise, your heart can be beating faster or slower. Learning how to control the heartrate can be quite advantageous especially when you are not cycling on a flat road. For example, you may want to drop your HR before climb so that your muscles can store more oxygen and get you up without loosing speed. Deciding on your target HR is also important when managing longer rides. 
 
-![hr-hills](/Users/rw/Documents/Screenshots/hr-hills.png)In addition to seing your HR for individual ride, the big picture is also very interesting:
+<img src="/blog-images/hr-hills.png" width="100%"/>
 
-[![hr](blog-images/hr.png)](blog-images/hr.png)
+In addition to seing your HR for individual ride, the big picture is also very interesting:
+
+[<img src="/blog-images/hr.png" width="100%"/>](/blog-images/hr.png)
 
 (click to zoom). When I started my workouts I was mostly focused on endurance. My first ride I overworked myself because I managed my HR poorly. For my next 160 ride I got a much better performance by having a better HR control.
 
@@ -54,7 +54,7 @@ In the past, I would cycle in my highest gear but since I've got the plan and th
 
 Your goal is to never stop pedaling. Many would push it out then cruise while their muscles recover, but this way you loose a lot of energy and your average speed suffers. Flat road or in-door (or cycle-master in the gym) is a great way to train cadence.
 
-![cadence](blog-images/cadence.png)
+<img src="/blog-images/cadence.png" width="100%"/>
 
 The 80-90 rotations per minute is quite similar to the beats of DnB music, which helps a lot when excercising. Having consistent rotations helps you get over the difficult slopes if you keep cadence while shiting into the lower gear as necessary. If you plan the climb properly, you can outptut maximum amount of power without pushing your HR too high or killing your muscles.
 
@@ -68,11 +68,12 @@ Here is a typical scenario: you go at the speed of 27km/h frighting the wind and
 
 Being able to properly recover after events is important. I only have one bottle holder so sometimes I run out of water before reaching next stop (approx 35km distance). After race is over, I keep a water bottle with me and make sure I can drink often, as my body absorbs the water back. It's important to plan how to get for a good meal after finishing a challenging ride. I am still trying to figure out wha's the best way to deal with muscle soreness. After a few days rest I do a short cycling session, which always seems to go terribly bad but next day I'm back into action. 
 
-### Goal 6: Don't over-do your excercises
+
+<img src="/blog-images/cyclemeter.png" width="50%" style="float: right"/>
+
+### Goal 6: Don't over-do
 
 Record and keep history of your rides. I prefer variety on my rides, but I sometimes repeat my rides to see if I can beat the result. Reality is that during my training plan, I'm often carrying fatigue for the last few days of training. The results of the ride is not perfect, but that's to be expected. I still can't beat those old results on my most popular route:
-
-![IMG_8017](/Users/rw/Downloads/IMG_8017.PNG)Once 
 
 If you prefer to train and ride with group/friends too, you should probably plan it in such a way, so that you don't over-burn yourself. Doing a proper pre-race regiment is very important and then your performance will be explosive on the event day.
 
