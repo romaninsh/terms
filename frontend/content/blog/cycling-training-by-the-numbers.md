@@ -56,7 +56,7 @@ Your goal is to never stop pedaling. Many would push it out then cruise while th
 
 <img src="/blog-images/cadence.png" width="100%"/>
 
-The 80-90 rotations per minute is quite similar to the beats of DnB music, which helps a lot when excercising. Having consistent rotations helps you get over the difficult slopes if you keep cadence while shiting into the lower gear as necessary. If you plan the climb properly, you can outptut maximum amount of power without pushing your HR too high or killing your muscles.
+The 80-90 rotations per minute is quite similar to the beats of DnB music, which helps a lot when excercising. Having consistent rotations helps you get over the difficult slopes if you keep cadence while shifting into the lower gear as necessary. If you plan the climb properly, you can outptut maximum amount of power without pushing your HR too high or killing your muscles.
 
 ### Goal 4: Power and Energy
 
