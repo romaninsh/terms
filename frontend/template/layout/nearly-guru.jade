@@ -9,33 +9,34 @@
                   .atk-actions-xlarge
                     a(href="{page}/{/}") #[span.icon-home-outline]
                     a(href="{page}about{/}") About Me 
-                    a(href="{page}blog{/}") Blog
+                    a(href="{page}devops{/}") DevOps
                     a(href="{page}open-source{/}") Open Source
-                    a(href="{page}public-speaking{/}") Public Speaking
+                    a(href="{page}blog{/}") Blog
                 .atk-cell.atk-align-right
                     a(href="{page}contact{/}") Contact Me
       #content.atk-layout-row.atk-layout-expand
         .atk-layout.atk-layout-cell
           .atk-layout-column.atk-layout-expand
-            {IndexHeader}
+            | {IndexHeader}
             section#hero.atk-swatch-darkGray.atk-background-cover.header-push(style="background-image:url(temp/romans.jpg)")
               .atk-wrapper.atk-padding-vertical-xlarge
                 .atk-align-center
                   .atk-push-large.atk-text-baseline-reset
                     .atk-size-yotta2.atk-text-caps.font-amatic.atk-push Romans Malinovskis
                     .atk-text-lead.atk-size-mega
-                      span Developer
+                      span Coding
                       span.atk-sep-xlarge.atk-swatch-orange-text /
-                      span Enterpreneur
+                      span DevOps
                       span.atk-sep-xlarge.atk-swatch-orange-text /
-                      span Public Speaker
+                      span Cycling
                   p.who-am-i.
-                      I am an author of #[a(href='http://agiletoolkit.org/' target="_blank") the Agile Toolkit (PHP UI Framework)], a father and #[a(href='https://www.linkedin.com/in/maligita' target="_blank") a husband].
-                      My passion is to excite new developers about Cloud App development and supply them #[br] with #[a(href='http://agiletoolkit.org/school' target="_blank") knowledge, tools and resources].
-            {/}
+                      Contributor and maintainer of #[a(href='https://www.openhub.net/accounts/romaninsh' target="_blank") many open-source projects] and
+                      freelance #[a(href='{page}devops{/}') DevOps consultant]. 
+                      Passionate about #[a(href='https://www.strava.com/athletes/6086659' target="_blank") cycling] and Teaching Web Development in School.
+            | {/}
             section.atk-padding-vertical-xlarge
               .atk-wrapper
-                {$Content}
+                | {$Content}
       #footer.atk-layout-row
         .atk-layout-cell
           hr.atk-hr-reset
@@ -59,6 +60,6 @@
                         i.icon-linkedin
                 .atk-cell.atk-jackscrew &nbsp;
                 .atk-cell.atk-text-nowrap
-                    a(href="https://github.com/romaninsh/terms")
+                    a(href="http://www.agiletoolkit.org/")
                         i.icon-atk
-                        | &nbsp;See Source
+                        | &nbsp;Made with Agile Toolkit
