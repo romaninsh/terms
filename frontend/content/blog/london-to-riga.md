@@ -1,6 +1,3 @@
----
-typora-copy-images-to: ./blog-images
----
 
 # Cycling from London to Riga
 
@@ -34,7 +31,7 @@ Cycling in the dark is no fun, especially on a foreign roads. In April daylight 
 
 **Route planning**
 
-![cycle-map](blog-images/cycle-map.jpg)
+![cycle-map](/blog-images/cycle-map.jpg){.atk-expand}
 
 I planned out route using http://komoot.de and it was surprisingly flat. If I don't have to push uphill, I should be going at the good average speeds of 30km/h. In my test rides, I was able to hold this speed for several hours on flat roads.
 
@@ -111,7 +108,7 @@ In comparison — in-door cycle training will have 4 types of exercises:
 
 For road cycling it's normal to keep 80-100 rotations per minute. Leg muscle memory gradually will allow you to spin faster. I was able to peak at 150rpm for a minute under a moderate resistance. David Lloyds is one of few gyms which have power meters on their spin bikes.
 
-![IMG_2154](blog-images/IMG_2154.jpeg)
+![IMG_2154](/blog-images/IMG_2154.jpeg){.atk-expand}
 
 Sometimes I would be there spinning, then a coach and a group would join me for a spin class. This was fun, but also inconvenient sometimes — I was told off for keeping rotations too high, I got the looks for using my phone for HR control and interfering with the darkness. I also think that I was upsetting a cleaning lady who wanted to clean the spin bike room before ending her shift, yet I keep pouring more sweat on the floor over the periods of 2h workouts.
 
@@ -210,7 +207,7 @@ It was now just few weeks before my departure, so I took it easy and did only ea
 
 Although I felt comfortable on the bike, knee problems prompted me to rethink my seat hight and position. Injuries can be caused by seat being too high or too low.
 
-![IMG_0983](blog-images/IMG_0983.JPG)
+![IMG_0983](/blog-images/IMG_0983.JPG){.atk-expand}
 
 A whole bike fitting process takes multiple hours, but it measures everything down to the smallest detail. At this point my confidence has also crumbled and knowing that the bike is fitted perfectly was very important for the peace of my mind.
 
@@ -242,7 +239,7 @@ First day hitting some minor rain in UK wasn't much of a problem. Used the rain 
 
 Day 2 — got wet, socks and all, but rain subsided. After a while with a new socks was able to continue comfortably and into Belgium. 
 
-![IMG_2393](blog-images/IMG_2393.jpeg)
+![IMG_2393](/blog-images/IMG_2393.jpeg){.atk-expand}
 
 When cycling there are two possible issues — rain and wet road. Rain itself is OK, but due to wet road shoes (I didn't had covers) get wet and with wet socks body looses heat making cycling much more difficult. Only once I had to stop and wait until thunderstorm passes by. Due to lack of time, I had to cycle in the rain where possible.
 
@@ -252,13 +249,13 @@ I encountered rain several times in the first 4 days, but then weather turned ex
 
 Cold days followed one after another. I planned to depart 7am every day, but until sun gets up it is extremely cold. I didn't expect to cycle in less than 5ºC, but on some occassions it was around 0ºC.
 
-![IMG_2511](blog-images/IMG_2511.jpeg)
+![IMG_2511](/blog-images/IMG_2511.jpeg){.atk-expand}
 
 I had to wear double pants and warm jacket, which was not ideal for cycling causing me to sweat and slowing me down by catching more wind with the hoodie.
 
 Crossing Poland-Russian border 7am in the morning, waiting outside for them to check my visa cooled me down and I had to crawl slowly to a nearest shop. This was day 8 and I had to complete 210km before last ferry connecting Curonian Spit and Klaipeda leaves. Luckily I had no issues and arrived 50 minutes before the departure of last Ferry. During day 8 it was not possible for Dmitry to reach me (he had no Russian visa). I'm glad I made it.
 
-![image-20190425233430161](blog-images/image-20190425233430161.png)
+![image-20190425233430161](/blog-images/image-20190425233430161.png){.atk-expand}
 
 ## Running out of Time
 
@@ -268,7 +265,7 @@ Lack of time was the major issue throughout the ride:
 
 **Day 2** - Started 8am. Lost 20minutes due to storm. Inefficient food stops. When arrived in Antwerp I couldn't find a tunnel at first and then the lift was broken. So finished around 21:50. Moving time 10h and average speed 20km/h. That means almost 4h I was not cycling. Another hour lost due to timezone  change btw.
 
-![image-20190425234715531](blog-images/image-20190425234715531.png)
+![image-20190425234715531](/blog-images/image-20190425234715531.png){.atk-expand}
 
 **Day 3** - Departed 8am. Hot weather culminated in a thunderstorm. When I crossed into Germany, got wet. Pit stop, replaced chain. Lost another hour. Arrived once again 21:45, 220 km.
 
@@ -284,32 +281,32 @@ Lack of time was the major issue throughout the ride:
 
 **Day 9** - I thought I can leave 9am, since we have an extra day, however after 50km simply following a highway against a strongest wind yet, I made a stop to replan route. The original route was going through Siauliai, then north through Jelgava into Riga, all following high-ways. However I decided to seek a more direct route. This caused new challenges — lot of off-road. Here is a modified route for Day 9:
 
-  ![siauliai](blog-images/siauliai.png)
+  ![siauliai](/blog-images/siauliai.png){.atk-expand}
 
 Total for Day 9 was 125km and for the first time I finished while it was still daylight. We celebrated last day with pizza and went to sleep. Next day I planned 123km, but that was a mistake.
 
-![image-20190426002913735](blog-images/image-20190426002913735.png)
+![image-20190426002913735](/blog-images/image-20190426002913735.png){.atk-expand}
 
 **Day 10** - The optimistic plan had a missplaced point A. I was actually 40km West,  in Mazeikai. I started 8:50 in the morning, expecting to have plenty of time.  Things went relatively well until I crossed border into Latvia:
 
-![image-20190426003228914](blog-images/image-20190426003228914.png)
+![image-20190426003228914](/blog-images/image-20190426003228914.png){.atk-expand}
 
 While the road in Latvia is shorter, It's an unpaved road. More importantly the gravel is extremely unsuitable for road bike, no control and very slow pace.
 
-![IMG_2579](blog-images/IMG_2579.jpeg)
+![IMG_2579](/blog-images/IMG_2579.jpeg){.atk-expand}
 
 I had to change the route again and go back into Lithuania in hopes for a better road. The diversion paid off and I even decided to make a loop into Auce then follow a state road to Jelgava:
 
-![image-20190426003636199](blog-images/image-20190426003636199.png)
+![image-20190426003636199](/blog-images/image-20190426003636199.png){.atk-expand}
 
 The road here was somewhat better, but still looked like a swiss cheese:
 
-![57702044813__AA92487C-9344-4C71-907A-EB504559E1A1](blog-images/57702044813__AA92487C-9344-4C71-907A-EB504559E1A1.jpeg)
+![57702044813__AA92487C-9344-4C71-907A-EB504559E1A1](/blog-images/57702044813__AA92487C-9344-4C71-907A-EB504559E1A1.jpeg){.atk-expand}
 
 10km before Jelgava I ran out of food and got really hungry. Slowly I proceeded trying not to get dizzy and wobble on a highway. In Jelgava I had a quick food break and from Jelgava to Riga it was a straigth line. Highway once again — two lines in each direction, but had extra lane for turns, emergency stops and .. cyclists. For the last day I covered 165km of distance in 8h (and 1.30h in total breaks) and arrived to the cheers of friends and relatives.
 
 ## Finish
 
-![UNADJUSTEDNONRAW_mini_948a](blog-images/UNADJUSTEDNONRAW_mini_948a.jpg)
+![UNADJUSTEDNONRAW_mini_948a](/blog-images/UNADJUSTEDNONRAW_mini_948a.jpg){.atk-expand}
 
 "Brivibas piemineklis" - monument to honour independence of Latvia is where the welcome party - friends and family welcomed me with a round of applause. They have made a tshirt, brought champaign and even gave me a trophy. Thank you all who encouraged me and helped me get through this. I'm glad if my 10-day ride encouraged or inspired anyone. 
