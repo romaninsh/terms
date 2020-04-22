@@ -1,7 +1,12 @@
 {% extends '_default/page.html.twig' %}
-{% block content %}<div class="posts">{% for post in site.pages|filterBy('section', 'blog')|sortByDate|slice(0, 1) %}<div class="post">{% block post %}<h1 class="post-title"><a href="{{ url(post) }}">{{ post.title }}</a></h1>
-<span class="post-date">{{ post.date|date("j M Y") }}</span>{% if post.image is defined %}<img src="{{ url(post.image) }}" />{% endif %}
-{{ post.content|excerptHtml }}<footer class="readmore">
+{% block content %}<h2 class="atk-push-large atk-align-center atk-text-caps font-amatic">Latest from the <a href="/blog">Blog</a></h2>
+<div class="posts">{% for post in site.pages|filterBy('section', 'blog')|sortByDate|slice(0, 1) %}<article class="atk-box-large">{% block post %}<div class="atk-push">
+<h3 class="atk-text-baseline-default atk-push-reset"> <a href="{{  url(post) }}">{{  post.title|e }}</a>
+</h3>
+<div class="atk-text-dimmed">Published by <a href="https://twitter.com/romaninsh" target="_blank">@romaninsh</a> on {{  post.date|date("j M Y") }}</div>
+</div>
+<div>{{ post.content|excerptHtml }}</div
+<footer class="readmore">
 <a href="{{ url(post) }}#more">Read more ›</a>
-</footer>{% endblock post %}</div>{% endfor %}</div>{% include 'partials/lastposts.html.twig' %}
+</footer>{% endblock post %}</article>{% endfor %}</div>{% include 'partials/lastposts.html.twig' %}
 {% endblock content %}

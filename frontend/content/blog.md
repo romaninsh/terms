@@ -8,6 +8,27 @@ If you have a question or challenge that you would like to write about on my blo
 
 
 
+<article class="atk-box-large">
+  <div class="atk-push">
+    <h3 class="atk-text-baseline-default atk-push-reset"> <a href="{page}blog/london-to-riga{/}">London to Riga Cycle (in 10 days)</a></h3>
+      <div class="atk-text-dimmed">Published by <a href="https://twitter.com/romaninsh" target="_blank">@romaninsh</a> on 12/06/2019</div>
+  </div>
+<div markdown="1">
+
+![cycle-map](/blog-images/cycle-map.jpg){.atk-expand}
+
+In April 2019 I cycled from **London to Berlin** in just 6 days. After 1 day break, I resumed my ride from **Poland** and reached **Riga (Latvia)** in another 3 days covering total of 1700km on my road bike.
+
+Although I didn't fully complete my challenge — to cycle all the way from London to Riga in 10 days (2100km), this was an exciting achievement for me regardless.
+
+I've decided to write this blog post with a detailed description. If you want to simply look at the pictures, you can find those at the facebook page: http://facebook.com/LondonRiga2000.
+
+
+</div>
+  <p><a href="{page}blog/london-to-riga{/}">Read more..</a></p>
+</article>
+
+
 
 
 <article class="atk-box-large">

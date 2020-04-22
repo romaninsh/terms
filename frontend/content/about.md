@@ -1,7 +1,9 @@
 # About Me
 
-I'm Romans Malinovskis – a Latvian-born, 36 year old Web Developer & Software
-Architect living in London.
+I'm Romans Malinovskis - lead web software dev, interim CTO and DevOps
+(https://nearly.guru/cv)
+
+## OpenSource
 
 In 2003, I designed and built my own web framework - Agile Toolkit.  Two years
 after that, I started a company that develops web apps using this framework.
@@ -12,17 +14,17 @@ Using the feedback from the initial 30,000+ users that downloaded the platform,
 I began working on creating the support architecture around the framework
 itself - hosting platform, educational program and enterprise support services.
 
-In 2015, I formed a team and we began developing an education program
-that would give the essentials of web development over a ten week course.
-This program is now being launched at several Universities and Institutes in
-India in 2016, the goal  to reach over 2,000 students in the first year in that country.
+## Software Development Education
 
-And in 2016, we hope to make further alliances to launch ATK School in cities
-in Europe and North America.
+I have recorded many screencasts and on-line learning materials. Check it out
+at https://agiletoolkit.org/school
 
-For the coming year, growth with ATK will focus on additional key partnerships to accelerate the ATK developer group with enterprises and start-ups.
+## DevOps and Consulting
 
-# Hobbies and Travel
+Last several years I have been taking more DevOps contracts, but I still
+do enjoy occassional Web App development project. 
+
+## Cycling
 It's quite difficult for me to take time from my lifetime passion.  My escape is cycling through Hertfordshire or simply visiting new places.
 
 Have an interesting idea or need my advice? Get in touch.
