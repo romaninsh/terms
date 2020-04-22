@@ -1,0 +1,115 @@
+| {% set title = page.title ~ ' &middot; ' ~ site.title %}
+| {% if page.type == 'homepage' %}
+| {% set title = site.title ~ ' &middot; ' ~ site.baseline %}
+| {% endif %}
+doctype html
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+html(lang="{{ site.language|default('en') }}")
+    head
+        | {% block head %}
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        title {{ site.title }}
+
+        meta(property='og:title' content='{{ site.title }}')
+        meta(property='og:locale' content="{{ site.language.locale|default('en') }}")
+        meta(name='description' content='{{ site.description }}')
+        meta(property='og:description' content='{{ site.description }}')
+        link(rel='canonical' href='{{ url(page, {canonical:true}) }}')
+        meta(property='og:url' content='{{ url(page, {canonical:true}) }}')
+        meta(property='og:site_name' content='{{ site.title }}')
+        script(type="text/javascript" src="{{ url('js/prism.js') }}")
+        | {% include 'partials/alternates.html.twig' %}
+        | {% endblock head %}
+
+    // Place favicon.ico and apple-touch-icon.png in the root directory
+
+    link(href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css')
+    link(rel="stylesheet" type="text/css" href="{{ url('css/romans.css') }}")
+
+body(class="page-{{ page.id }}")
+    .atk-layout
+        #header.atk-layout-row
+            .atk-layout-cell
+                header.atk-swatch-darkGray
+                    .atk-wrapper.atk-padding-vertical
+                        .atk-cells
+                            .atk-cell
+                                .atk-actions-xlarge
+
+
+                                    | {% for entry in site.menus.main|sortByWeight %}
+                                    | {% if entry.id == 'index' %}
+                                    a(href="{{ url('/') }}") #[span.icon-home-outline]
+                                    | {% elseif entry.id == 'contact' %}
+                                    | {% else %}
+
+                                    a(id="menu-entry-{{ entry.id }}" class="{% if url(page) == url(entry.url) or url(page) == url(entry.url)|trim('/') or page.section == entry.url %} active{% endif %}" href="{{ url(entry.url) }}")
+                                        | {{ entry.name }}
+
+                                    | {% endif %}
+                                    | {% endfor %}
+
+                                    //a(href="{page}about{/}") About Me
+                                    //a(href="{page}devops{/}") DevOps
+                                    //a(href="{page}open-source{/}") Open Source
+                                    //a(href="{page}blog{/}") Blog
+                            .atk-cell.atk-align-right
+                                a(href="{{ url('contact') }}") Contact Me
+        #content.atk-layout-row.atk-layout-expand
+            .atk-layout.atk-layout-cell
+                .atk-layout-column.atk-layout-expand
+                    | {% if page.id == 'index' %}
+                    section#hero.atk-swatch-darkGray.atk-background-cover.header-push(style="background-image:url(temp/romans.jpg); padding-top: 55px;")
+                        .atk-wrapper.atk-padding-vertical-xlarge
+                            .atk-align-center
+                                .atk-push-large.atk-text-baseline-reset
+                                    .atk-size-yotta2.atk-text-caps.font-amatic.atk-push Romans Malinovskis
+                                    .atk-text-lead.atk-size-mega
+                                        span Coding
+                                        span.atk-sep-xlarge.atk-swatch-orange-text /
+                                        span DevOps
+                                        span.atk-sep-xlarge.atk-swatch-orange-text /
+                                        span Cycling
+                                p.who-am-i.
+                                    Contributor and maintainer of #[a(href='https://www.openhub.net/accounts/romaninsh' target="_blank") many open-source projects] and
+                                    freelance #[a(href='{page}devops{/}') DevOps consultant].
+                                    Passionate about #[a(href='https://www.strava.com/athletes/6086659' target="_blank") cycling] and Teaching Web Development in School.
+                    | {% endif %}
+                    section.atk-padding-vertical-xlarge
+                        .atk-wrapper
+                            | {% if page.id matches '{^blog/}' %}
+                            h2 {{ page.title }}
+                            | {% endif %}
+                            | {% block content %}
+                            | {{ page.content }}
+                            | {% endblock %}
+    #footer.atk-layout-row
+        .atk-layout-cell
+            hr.atk-hr-reset
+            .atk-wrapper.atk-padding-vertical.atk-text-baseline-reset.atk-text-dimmed.atk-cells.atk-cells-gutter
+                .atk-cell.atk-text-nowrap
+                    a(href="{page}contact{/}")
+                        i.icon-mail
+                        | &nbsp;Say "Hello"
+                .atk-cell.atk-text-nowrap
+                    | Explore:&nbsp;
+                    a(href="http://github.com/romaninsh" target="_blank")
+                        i.icon-github
+                    | &nbsp;
+                    a(href="http://twitter.com/romaninsh" target="_blank")
+                        i.icon-twitter
+                    | &nbsp;
+                    a(href="http://stackoverflow.com/users/204819/romaninsh" target="_blank")
+                        i.icon-stackoverflow
+                    | &nbsp;
+                    a(href="http://linkedin.com/in/romansmalinovskis" target="_blank")
+                        i.icon-linkedin
+                .atk-cell.atk-jackscrew &nbsp;
+                .atk-cell.atk-text-nowrap
+                    a(href="http://www.agiletoolkit.org/")
+                        i.icon-atk
+                        | &nbsp;Made with Agile Toolkit
+

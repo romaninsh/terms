@@ -1,6 +1,13 @@
-## Replacing your old Webserver with Dokku-alt — The open-source Heroku Alternative
+---
+title: "Replacing your old Webserver with Dokku-alt — The open-source Heroku Alternative"
+date: 2016-01-03
+tags:
+  - test
+draft: false
+---
 
 During the last few years I have migrated all my web applications from a classic LAMP server setup into Ubuntu running [Dokku-alt PaaS manager](http://dokku-alt.github.io). Despite some strong benefits there are very few articles/tutorials on how to configure and get your web apps running. This week I am writing about fundamental differences, benefits and challenges as you try out to build your own PaaS.
+<!-- excerpt -->
 
 ### A brief history on Heroku, Dokku vs Dokku-alt
 
@@ -22,7 +29,7 @@ If you have never used application platforms before you need to be aware of some
 
 **1. Deployment and Containers**
 
-![image](blog-images/dokku-deploy-with-git-push.png){.atk-expand}
+![image](/2016/dokku-deploy-with-git-push.png?resize=700)
 
 
 The time when you used to ftp "into your webserver" to upload a changed file is long over. We all know how many error and problems this approach was creating with random errors popping up on live sites, loosing important changes etc.
@@ -31,7 +38,7 @@ With Dokku-alt you no longer change files on your server, instead of you "deploy
 
 **2. Forward Proxying**
 
-![image](blog-images/dokku-deploy-server-structure.png){.atk-expand}
+![image](/2016/dokku-deploy-server-structure.png?resize=700)
 
 Previously you had to enable support for all the programming languages you were planning to use on your server. With dokku-alt your webserver is a simple reverse proxy (implemented by Nginx). Different containers can run different language interpreters and even different operating systems an as long as they expose port 80 it will be attached to a URL on your webserver. With isolation and separation you can now run as many different PHP versions as your apps require without any conflicts.
 
@@ -71,7 +78,7 @@ Once you describe the services you need you can easily deploy your app to a new 
 
 The other important change is that your Database now needs to be defined as a "Service". It may be offered by 3rd party such as Amazon RDS, Clusterpoint or MongoLab and defined inside your application through a "DSN / Connection String".
 
-![image](blog-images/dokku-deploy-database-service.png){.atk-expand}
+![image](/2016/dokku-deploy-database-service.png?resize=700)
 
 **5. External Volumes**
 
@@ -155,16 +162,3 @@ I heavily rely on CONFIG variables and perform container tweaks after it has bee
 
 If you would like me to write another, a more detailed blog post about practical use of Dokku-alt and look at some practical cases - please [let me know on twitter - @romaninsh](https://twitter.com/romaninsh).
 
-## Comments
-
-<div id="disqus_thread"></div>
-<script>
-(function() {
-var d = document, s = d.createElement('script');
-
-s.src = '//nearlyguru.disqus.com/embed.js';
-
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>

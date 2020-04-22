@@ -1,0 +1,29 @@
+{% set pages = site.pages.all %}
+{% if page.pages is defined %}
+    {% set pages = page.pages %}
+{% endif %}
+{% if page.pagination.pages is defined %}
+    {% set pages = page.pagination.pages %}
+{% endif %}
+
+{% extends '_default/page.html.twig' %}
+
+{% block content %}
+    <div class="posts">
+        {% for post in pages %}
+            <article class="atk-box-large">
+                {% block post %}
+                    <div class="atk-push">
+                        <h3 class="atk-text-baseline-default atk-push-reset"> <a href="{{  url(post) }}">{{  post.title|e }}</a>
+                        </h3>
+                        <div class="atk-text-dimmed">Published by <a href="https://twitter.com/romaninsh" target="_blank">@romaninsh</a> on {{  post.date|date("j M Y") }}</div>
+                    </div>
+                    <div>
+                        {{ post.content|excerptHtml }}
+                    </div>
+                {% endblock post %}
+            </article>
+        {% endfor %}
+    </div>
+    {% include 'partials/pagination.html.twig' %}
+{% endblock content %}

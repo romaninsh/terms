@@ -1,0 +1,28 @@
+title: "Romans Malinovskis homepage"
+baseline: "Your blogging assistant."
+description: "A ready to use static blog, powered by Cecil."
+keywords: "Cecil, Static Site Generator, SSG"
+author: "Romans Malinovskis"
+baseurl: "/"
+canonicalurl: true
+ate:
+  format: "j F Y"
+  timezone: "Europe/Paris"
+output:
+  formats:
+    - name: netlify_redirects
+      mediatype: "text/plain"
+      extension: ""
+virtualpages:
+  - path: admin
+    title: "Content Manager (Netlify CMS)"
+    layout: admin/index
+    output: html
+netlify:
+  cms:
+    path: "admin"
+    version: "latest"
+  identity:
+    version: "v1"
+optimize:
+  enabled: true

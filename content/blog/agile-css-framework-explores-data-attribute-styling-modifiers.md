@@ -1,4 +1,11 @@
-## Agile CSS Framework explores data-* attribute styling modifiers
+---
+title: Agile CSS Framework explores data-* attribute styling modifiers
+date: 2016-01-12
+tags:
+  - test
+draft: false
+---
+
 
 Traditionally CSS frameworks have relied on ability to combine multiple CSS classes for widget styling. While one class may specify the name of the widget (dropdown-menu), a supplementary class (dropdown-menu-right) will define some property such as positioning of a menu:
 
@@ -15,6 +22,8 @@ Over the past few years I have worked with Agile CSS which relies very heavily o
 <span "atk-shape-circle atk-swatch-green atk-padding-xsmall
     atk-text-baseline-reset atk-border-outline"></span>
 ```
+
+<!-- excerpt -->
 
 The heavy focus on "modifiers" makes one of the unique points of [Agile CSS](http://css.agiletoolkit.org/) - ability to design entirely new widgets with very little additional CSS code and by focusing of re-usability. This approach have proven to be quite effectie at designing custom layouts, custom widgets and custom color schemes.
 
@@ -172,16 +181,3 @@ CSS classes are mainly used for styling, while data-X are mainly used by JavaScr
 
 Still I'm willing to explore the possibilities here. I am very curious of what you might think about this new technique in a CSS framework.
 
-## Comments
-
-<div id="disqus_thread"></div>
-<script>
-(function() {
-var d = document, s = d.createElement('script');
-
-s.src = '//nearlyguru.disqus.com/embed.js';
-
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>

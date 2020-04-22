@@ -1,0 +1,7 @@
+.lastposts
+    h2 Recent posts
+    ul
+        | {% for post in site.pages|filterBy('section', 'blog')|sortByDate|slice(1, 5) %}
+        li
+            a(href='{{ url(post) }}') {{ post.title }}
+        | {% endfor %}

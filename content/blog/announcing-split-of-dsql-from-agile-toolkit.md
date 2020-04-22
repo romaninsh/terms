@@ -1,4 +1,10 @@
-# Announcing split of DSQL from Agile Toolkit
+---
+title: Announcing split of DSQL from Agile Toolkit
+date: 2016-01-29
+tags:
+  - test
+draft: false
+---
 
 [DSQL](http://book.agiletoolkit.org/model/dsql.html) is a SQL Query Builder of [Agile Toolkit](https://www.agiletoolkit.org/) - an object-oriented library which helps your PHP application reliably build "SELECT .. FROM .. WHERE .." queries.
 
@@ -23,6 +29,8 @@ DSQL is an object-oriented interface to generating vendor-specifig query string:
  * Various data fetching models, iterator support.
  * Well suitable to be used in higher-level frameworks.
  * Stable code, in constant use for over 10 years since first version.
+
+<!-- excerpt -->
 
 This is the most basic query example:
 
@@ -180,22 +188,3 @@ We have worked hard in 2015 to build a corporate structure around Agile Toolkit 
 
 DSQL is already included in the curriculum of our [Agile Toolkit school](https://agiletoolkit.org/school/), but we will be looking to create a specific DSQL workshop program if there will be sufficient demand for it.
 
-## Getting Involved
-
-We need your help. Getting involved is a great way to learn and contribute to the world of Open Source. It will also open new opportunities for you or your company.
-
-<a class="atk-button atk-align-center atk-swatch-orange atk-size-mega" href="http://goo.gl/forms/uC7AKXU5Pn" target="_blank">Register your interest</a>
-
-## Comments
-
-<div id="disqus_thread"></div>
-<script>
-(function() {
-var d = document, s = d.createElement('script');
-
-s.src = '//nearlyguru.disqus.com/embed.js';
-
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>

@@ -1,4 +1,10 @@
-# Real-life Database example for Agile Toolkit
+---
+title: Real-life Database example for Agile Toolkit
+date: 2016-02-02
+tags:
+  - test
+draft: false
+---
 
 Agile Toolkit is a PHP web framework with a particularly powerful ORM (Object-relational mapping) engine. This ORM goes much further beyond translating your data records into objects. It is fluent with joins, expressions, conditions and subqueries helping developer to take full potential of SQL engine through object-oriented interface.
 
@@ -6,7 +12,9 @@ To help illustrating some of these features, I have created a new enhancement to
 
 For data I decided to use a [standard test_db repository](https://github.com/datacharmer/test_db), that creates about 300,000 employee records in the database along with 2,8 millions of salary records. The data is relational and can be seen in the following ER Diagram:
 
-![image](blog-images/employees-db.png){.atk-expand}
+![image](/blog-images/employees-db.png){.atk-expand}
+
+<!-- excerpt -->
 
 Within just 3 hours of coding, I've managed to build an interface where a user can find answers to various questions such as:
 
@@ -19,7 +27,7 @@ Within just 3 hours of coding, I've managed to build an interface where a user c
 
 The interface for pulling all this data is really simple:
 
-![image](blog-images/employees-ui.png){.atk-expand}
+![image](/blog-images/employees-ui.png){.atk-expand}
 
 And a LIVE DEMO is also available: [http://sink.agiletoolkit.org/employees/browse](http://sink.agiletoolkit.org/employees/browse)
 
@@ -68,7 +76,7 @@ Because of the way how conditions and join work with the models, a standard UI e
 
 Surprisingly not only you can browse the records, but you can edit them. You can change either name of employee or their salary and an appropriate record will be modified. The UPDATE query will not use "JOIN" but will be smart enough to understand which record needs to be edited. Finally if any of your modifications will cause model to fall outside of defined conditions, your operation will not be performed.
 
-![image](blog-images/employees-edit.png)
+![image](/blog-images/employees-edit.png)
 
 Agile ORM and the View objects of Agile Toolkit reassures you that all the operations it's going to perform will properly respect any conditions that you place upon it. In a business application this restriction can often avoid nasty bugs and problems and the way Agile ORM implements work with SQL - everything still fits a single query.
 
@@ -98,17 +106,3 @@ As a final note I must say that while my app uses a rather simple UI logic, it's
 
 I would like to add more interesting examples and use-cases for Agile ORM. Please share what you would like me to blog on next.
 
-
-### Comments
-
-<div id="disqus_thread"></div>
-<script>
-(function() {
-var d = document, s = d.createElement('script');
-
-s.src = '//nearlyguru.disqus.com/embed.js';
-
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>

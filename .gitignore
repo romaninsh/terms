@@ -5,3 +5,5 @@
 /agiletoolkit-css
 *.phar
 /config-auto.php
+.idea
+_site

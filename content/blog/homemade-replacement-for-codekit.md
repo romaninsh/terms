@@ -1,10 +1,19 @@
+---
+title: Homemade replacement for CodeKit
+date: 2016-12-22
+tags:
+  - test
+draft: false
+---
 
-# Homemade replacement for CodeKit
 
 Since I have purchased CodeKit I have been having problems, where it
 occassionally hangs, consumes too much memory or crashes. I it only to
 compile JADE/PUG files, so I decided to create my own solution based on
 some open-source utilities.
+
+<!-- excerpt -->
+
 
 I appreciate all the advanced features of CodeKit, but if you are looking
 for just a lightweight solution to compile your files instantly, then my script
@@ -42,16 +51,3 @@ you want. Here are some of the features:
 
 Script is in public domain, and you are welcome to improve or re-use this script.
 
-## Comments
-
-<div id="disqus_thread"></div>
-<script>
-(function() {
-var d = document, s = d.createElement('script');
-
-s.src = '//nearlyguru.disqus.com/embed.js';
-
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>

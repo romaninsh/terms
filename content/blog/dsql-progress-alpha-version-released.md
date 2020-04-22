@@ -1,14 +1,22 @@
-# DSQL Progress - alpha version released
+---
+title: DSQL Progress - alpha version released
+date: 2016-03-30
+tags:
+  - cycling
+draft: false
+---
 
 In [one of my previous posts](http://nearly.guru/blog/announcing-split-of-dsql-from-agile-toolkit) I have proposed to split a component that has been a part of our ATK library into a separate project called [DSQL](https://github.com/atk4/dsql). Me and [Imants](https://github.com/DarkSide666) have been [burning the midnight oil](https://github.com/atk4/dsql/graphs/punch-card) to move and refactor functionality into this separate project, and we have just [released the ALPHA1 version of the project](https://github.com/atk4/dsql/releases/tag/1.0.0-alpha).
 
 With this blog post I want to share our progress and show you what we have accomplished in a few months.
 
+<!-- excerpt -->
+
 ## Pull-request based approach
 
 As I've mentioned earlier, I wanted our project to be built through pull requests from the very beginning. This has been a really good success and it wasn't introducing any extra complexity, but instead it cleaned up the project flow and allowed us to focus on adding specific features. We have also started thinking "how do I structure code to make pull requests smoother".
 
-![image](blog-images/pr-in-dsql.png)
+![image](/blog-images/pr-in-dsql.png){.atk-expand}
 
 ## Pull-requests must have docs and test
 

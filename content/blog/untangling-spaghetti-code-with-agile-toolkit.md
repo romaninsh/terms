@@ -1,10 +1,18 @@
-# Untangling Spaghetti Code
+---
+title: Untangling Spaghetti Code
+date: 2016-06-30
+tags:
+  - test
+draft: false
+---
 
 A few months ago my oldest web application was replaced after it was in daily use over 15 years unchanged. An extreme case, no doubt. 
 
 Most web apps, if not looked after properly, may gradually become more and more difficult to maintain. This gradual erosion slowly changes your application into a bowl of spaghetti code.
 
 What causes deterioration? How to prolong the life of your code? How to make it more maintainable? In this article, I'm sharing some of my findings and future plans that may give you a great solution for the problem.
+
+<!-- excerpt -->
 
 ## What causes code rot?
 
@@ -146,8 +154,4 @@ The consistency of your Data and UI allows us to develop and offer you a wide ra
 
 Agile UI and Agile Platform are planned to be released by the end of 2016. 
 
-## Early Beta
 
-My team is looking for developers that can help us test early versions of Agile Data and Agile Toolkit and Agile Platform. In exchange for your involvement, we are willing to give you access to some commercial widgets, themes and add-ons, training materials or commercial support. You need to provide your details and we will email you further information:
-
-<a class="atk-button atk-align-center atk-swatch-orange atk-size-mega" href="http://goo.gl/forms/gXTiRrd7SOyENpLs1" target="_blank">Register your interest</a>

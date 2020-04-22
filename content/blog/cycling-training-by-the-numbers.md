@@ -1,8 +1,17 @@
-# Cycling training by the numbers
+---
+title: Cycling training by the numbers
+date: 2017-05-08
+tags:
+  - test
+draft: false
+---
 
 From the beginning of this year, I've been more focused on my cycling training. With my new indoor bicycle mount, I was able to start cycling during the cold/rainy days.
 
 Being a "geek" I also decided to learn the theory and focus on recording all the possible stats. There are [several good articles that focus on CTL, ATL, TSB](https://www.google.co.uk/search?q=understanding+ctl+atl+cycling), but I wanted to rather share my own experience.
+
+<!-- excerpt -->
+
 
 ## Gear, Devices and Software
 
@@ -30,9 +39,7 @@ Cyclemeter is a very powerful software, the best you can find really. Can't list
 
 My first challenge was consistency with my training. I have looked in many places and settled on [Today's Plan App](http://todaysplan.com.au). It collects data about your fitness, the amount of available time, habits and goals and creates a workout schedule for you. It's not just a simple repetitive workout, but a very enjoyable one, with a lot of variety, control over your load. It's a pleasure to follow the exercises and I've found that all the workouts would be very considerate to my level of fatigue.
 
-[<img src="/blog-images/consistency.png" width="100%"/>](/blog-images/consistency.png)
-
-(click to zoom). 
+![image](/blog-images/consistency.png){.atk-expand}
 
 This is my custom-configured dashboard where I make sure that I'm not pushing past my limits on exercise frequency.
 
@@ -40,11 +47,11 @@ This is my custom-configured dashboard where I make sure that I'm not pushing pa
 
 Once I managed to get my training consistently (4 times a week) my next goal was to learn how to control the heart rate. When you exercise, your heart can be beating faster or slower. Learning how to control the heart rate can be quite advantageous especially when you are not cycling on a flat road. For example, you may want to drop your HR before climb so that your muscles can store more oxygen and get you up without losing speed. Deciding on your target HR is also important when managing longer rides. 
 
-<img src="/blog-images/hr-hills.png" width="100%"/>
+![image](/blog-images/hr-hills.png){.atk-expand}
 
 In addition to seing your HR for individual ride, the big picture is also very interesting:
 
-[<img src="/blog-images/hr.png" width="100%"/>](/blog-images/hr.png)
+![image](/blog-images/hr.png){.atk-expand}
 
 (click to zoom). When I started my workouts I was mostly focused on endurance. My first ride I overworked myself because I managed my HR poorly. For my next 160 rides, I got a much better performance by having a better HR control.
 
@@ -54,7 +61,7 @@ In the past, I would cycle in my highest gear but since I've got the plan and th
 
 Your goal is to never stop pedalling. Many would push it out then cruise while their muscles recover, but this way you loose a lot of energy and your average speed suffers. Flat road or indoor (or "cycle-master" in the gym) is a great way to train cadence.
 
-<img src="/blog-images/cadence.png" width="100%"/>
+![image](/blog-images/cadence.png){.atk-expand}
 
 The 80-90 rotations per minute are quite similar to the beats of DnB music, which helps a lot when exercising. Having consistent rotations helps you get over the difficult slopes if you keep cadence while shifting into the lower gear as necessary. If you plan the climb properly, you can output maximum amount of power without pushing your HR too high or killing your muscles.
 

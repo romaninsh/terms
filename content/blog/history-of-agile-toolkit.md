@@ -1,4 +1,10 @@
-# History of Agile Toolkit
+---
+title: History of Agile Toolkit
+date: 2016-03-14
+tags:
+  - test
+draft: false
+---
 
 Agile Toolkit is my software project that I have started all the way back in 2000 and has been in my care for almost 2 decades now. This projects reflects my desire to simplify life of a web developer and introduce some unique concepts in web development.
 
@@ -9,6 +15,8 @@ Agile Toolkit was created to solve the re-usability problem as I was having whil
 ## What Shaped Agile Toolkit
 
 In 2003 I have started a major rewrite and thinking about the new concept of writing web application. Object Oriented programming was finally ariving into PHP with the up-coming release of PHP5. I have implemented a whole new way to develop administration interfaces in a new and unique way. 
+
+<!-- excerpt -->
 
 I used my experience from early desktop environments and toolkits and decided that Objects can similarly be added inside pages and Pages can nicely exist inside the appliction itself. This concept is still used in Agile Toolkit and is called "Runtime Render Tree". This effectively introduces and separates 2 processes in your web applicatino:
 
@@ -98,18 +106,4 @@ Since this milestone I have been putting my time into further sustainability of 
 ## Thanks to Contributors
 
 Agile Toolkit would not be possible without contributions. I would like to offer a big thanks to anyone who have contributed code back into the framework, developed projects on it or even provided some feedback. 
-
-## Comments
-
-<div id="disqus_thread"></div>
-<script>
-(function() {
-var d = document, s = d.createElement('script');
-
-s.src = '//nearlyguru.disqus.com/embed.js';
-
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
 
