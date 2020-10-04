@@ -42,7 +42,8 @@ steps:
     image: byrnedo/alpine-curl
     working_directory: "${{clone}}" # Running command where code cloned
     commands:
-      - curl http://app:80/
+      - apk add html-xml-utils
+        - "curl http://app:80/ | hxselect -s '\n' -c  'title'"
     stage: "test"
     services:
       composition:
@@ -55,7 +56,13 @@ steps:
         periodSeconds: 15
         image: byrnedo/alpine-curl
         commands:
-          - apk add html-xml-utils
-          - "curl http://app:80/ | hxselect -s '\n' -c  'title'"
+          - curl http://app:80/
 
+  deploy:
+    image: codefresh/kubectl:1.13.3
+    stage: deploy
+    commands:
+      - echo $CF_KUBECONFIG_PATH
+      - kubectl config use-context digitalOcean@atk
+      - kubectl -n nearly-guru set image deployment/nearly-guru nearly-guru="registry.digitalocean.com/nearly-guru:${{CF_REVISION}}"
 
