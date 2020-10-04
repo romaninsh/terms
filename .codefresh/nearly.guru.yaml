@@ -1,0 +1,49 @@
+version: "1.0"
+stages:
+  - "clone"
+  - "build"
+  - "deploy"
+
+steps:
+  clone:
+    title: "Cloning repository"
+    type: "git-clone"
+    repo: "romaninsh/terms"
+    revision: "${{CF_BRANCH}}"
+    git: "github"
+    stage: "clone"
+
+  cecil:
+    title: Cecil Build Site
+    type: freestyle
+    working_directory: "${{clone}}"
+    arguments:
+      image: php
+      comands:
+        - curl -LO https://cecil.app/cecil.phar
+        - php cecil.phar build
+
+  build:
+    title: "Building Docker image"
+    type: "build"
+    image_name: "romaninsh/terms"
+    working_directory: "${{clone}}"
+    tag: "${{CF_BRANCH_TAG_NORMALIZED}}"
+    #dockerfile:
+    stage: "build"
+
+  test:
+    title: "Running test"
+    type: "freestyle" # Run any command
+    image: "ubuntu:latest" # The image in which command will be executed
+    working_directory: "${{clone}}" # Running command where code cloned
+    commands:
+      - wget -O - http://app/
+    stage: "test"
+    services:
+      composition:
+        app:
+          image: {{build}}
+          ports: 8080
+
+
