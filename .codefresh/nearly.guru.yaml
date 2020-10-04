@@ -50,5 +50,11 @@ steps:
           image: '${{build}}'
           ports:
            - 8080
+      readiness:
+        timeoutSeconds: 30
+        periodSeconds: 15
+        image: byrnedo/alpine-curl
+        commands:
+          - "curl http://app:8080/"
 
 
