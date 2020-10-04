@@ -27,11 +27,10 @@ steps:
   build:
     title: "Building Docker image"
     type: "build"
-    registry: atk
-    image_name: "romaninsh/terms"
+    registry: saasty
+    image_name: "nearly.guru"
     working_directory: "${{clone}}"
-    tag: "${{CF_BRANCH_TAG_NORMALIZED}}"
-    #dockerfile:
+    tag: "${{CF_REVSION}}"
     stage: "build"
 
   test:
