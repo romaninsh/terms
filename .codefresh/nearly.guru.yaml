@@ -28,13 +28,13 @@ steps:
 
   build:
     title: "Building Docker image"
+    stage: "build"
     type: "build"
     registry: saasty
     dockerfile: Dockerfile
-    image_name: "saasty/nearly_guru"
     working_directory: "${{clone}}"
-    tag: "${{CF_REVSION}}"
-    stage: "build"
+    tag: '${{CF_REVISION}}'
+    image_name: saasty/nearly-guru
 
   test:
     title: "Running test"
