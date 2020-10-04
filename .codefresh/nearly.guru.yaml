@@ -22,7 +22,7 @@ steps:
     arguments:
       image: php
       entry_point: /bin/sh
-      comands:
+      commands:
         - curl -LO https://cecil.app/cecil.phar
         - php cecil.phar build
 
