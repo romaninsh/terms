@@ -21,7 +21,7 @@ steps:
     working_directory: "${{clone}}"
     arguments:
       image: php
-      entry: /bin/sh
+      entry_point: /bin/sh
       comands:
         - curl -LO https://cecil.app/cecil.phar
         - php cecil.phar build
