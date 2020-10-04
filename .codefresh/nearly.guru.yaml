@@ -43,7 +43,7 @@ steps:
     working_directory: "${{clone}}" # Running command where code cloned
     commands:
       - apk add html-xml-utils
-        - "curl http://app:80/ | hxselect -s '\n' -c  'title'"
+      - "curl http://app:80/ | hxselect -s '\n' -c  'title'"
     stage: "test"
     services:
       composition:
