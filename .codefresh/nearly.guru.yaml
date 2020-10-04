@@ -39,10 +39,10 @@ steps:
   test:
     title: "Running test"
     type: "freestyle" # Run any command
-    image: "ubuntu:latest" # The image in which command will be executed
+    image: byrnedo/alpine-curl
     working_directory: "${{clone}}" # Running command where code cloned
     commands:
-      - wget -O - http://app/
+      - curl -O - http://app:8080/
     stage: "test"
     services:
       composition:
