@@ -33,18 +33,18 @@ steps:
     tag: "${{CF_REVSION}}"
     stage: "build"
 
-  test:
-    title: "Running test"
-    type: "freestyle" # Run any command
-    image: "ubuntu:latest" # The image in which command will be executed
-    working_directory: "${{clone}}" # Running command where code cloned
-    commands:
-      - wget -O - http://app/
-    stage: "test"
-    services:
-      composition:
-        app:
-          image: {{build}}
-          ports: 8080
+#  test:
+#    title: "Running test"
+#    type: "freestyle" # Run any command
+#    image: "ubuntu:latest" # The image in which command will be executed
+#    working_directory: "${{clone}}" # Running command where code cloned
+#    commands:
+#      - wget -O - http://app/
+#    stage: "test"
+#    services:
+#      composition:
+#        app:
+#          image: {{build}}
+#          ports: 8080
 
 
