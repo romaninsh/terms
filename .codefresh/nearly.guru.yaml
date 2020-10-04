@@ -47,7 +47,7 @@ steps:
     services:
       composition:
         app:
-          image: {{build}}
+          image: '${{build}}'
           ports:
            - 8080
 
