@@ -2,6 +2,7 @@ version: "1.0"
 stages:
   - "clone"
   - "build"
+  - test
   - "deploy"
 
 steps:
@@ -26,6 +27,7 @@ steps:
   build:
     title: "Building Docker image"
     type: "build"
+    registry: atk
     image_name: "romaninsh/terms"
     working_directory: "${{clone}}"
     tag: "${{CF_BRANCH_TAG_NORMALIZED}}"
