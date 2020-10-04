@@ -44,10 +44,11 @@ steps:
     commands:
       - wget -O - http://app/
     stage: "test"
-#    services:
-#      composition:
-#        app:
-#          image: {{build}}
-#          ports: 8080
-#
+    services:
+      composition:
+        app:
+          image: {{build}}
+          ports:
+           - 8080
+
 
