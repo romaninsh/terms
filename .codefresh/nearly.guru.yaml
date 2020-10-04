@@ -30,6 +30,7 @@ steps:
     title: "Building Docker image"
     type: "build"
     registry: saasty
+    dockerfile: Dockerfile
     image_name: "nearly.guru"
     working_directory: "${{clone}}"
     tag: "${{CF_REVSION}}"
