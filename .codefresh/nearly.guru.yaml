@@ -42,7 +42,7 @@ steps:
     image: byrnedo/alpine-curl
     working_directory: "${{clone}}" # Running command where code cloned
     commands:
-      - apk add html-xml-utils
+      - apk add html-xml-utils;
       - "curl http://app:80/ | hxselect -s '\n' -c  'title'"
     stage: "test"
     services:
