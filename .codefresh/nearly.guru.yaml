@@ -42,14 +42,14 @@ steps:
     image: byrnedo/alpine-curl
     working_directory: "${{clone}}" # Running command where code cloned
     commands:
-      - curl http://app:8080/
+      - curl http://app:80/
     stage: "test"
     services:
       composition:
         app:
           image: '${{build}}'
           ports:
-           - 8080
+           - 80
       readiness:
         timeoutSeconds: 30
         periodSeconds: 15
