@@ -55,6 +55,7 @@ steps:
         periodSeconds: 15
         image: byrnedo/alpine-curl
         commands:
-          - "curl http://app:80/"
+          - apk add html-xml-utils
+          - "curl http://app:80/ | hxselect -s '\n' -c  'title'"
 
 
