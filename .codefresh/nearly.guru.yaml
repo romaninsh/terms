@@ -31,7 +31,7 @@ steps:
     type: "build"
     registry: saasty
     dockerfile: Dockerfile
-    image_name: "nearly_guru"
+    image_name: "saasty/nearly_guru"
     working_directory: "${{clone}}"
     tag: "${{CF_REVSION}}"
     stage: "build"
