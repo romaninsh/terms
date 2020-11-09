@@ -64,5 +64,5 @@ steps:
     commands:
       - echo $CF_KUBECONFIG_PATH
       - kubectl config use-context digitalOcean@atk
-      - kubectl -n nearly-guru set image deployment/nearly-guru nearly-guru="registry.digitalocean.com/nearly-guru:${{CF_REVISION}}"
+      - kubectl -n nearly-guru set image deployment/nearly-guru nearly-guru="registry.digitalocean.com/saasty/nearly-guru:${{CF_REVISION}}"
 
