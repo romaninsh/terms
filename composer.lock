@@ -1,10 +1,9 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "3e4dfbc95c83dd1d790e8358469e4709",
     "content-hash": "138b5cd299c7658202333fcd5d37c91c",
     "packages": [
         {
@@ -46,7 +45,7 @@
             "keywords": [
                 "atk4"
             ],
-            "time": "2014-03-06 16:37:45"
+            "time": "2014-03-06T16:37:45+00:00"
         },
         {
             "name": "atk4/atk4",
@@ -80,7 +79,7 @@
                 "atk4",
                 "framework"
             ],
-            "time": "2016-02-29 12:21:49"
+            "time": "2016-02-29T12:21:49+00:00"
         },
         {
             "name": "educoder/pest",
@@ -122,21 +121,28 @@
             ],
             "description": "A proper REST client for PHP.",
             "homepage": "https://github.com/educoder/pest",
-            "time": "2013-11-17 12:58:01"
+            "time": "2013-11-17T12:58:01+00:00"
         },
         {
             "name": "erusev/parsedown",
-            "version": "1.6.0",
+            "version": "v1.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "3ebbd730b5c2cf5ce78bc1bf64071407fc6674b7"
+                "reference": "d60bcdc46978357759ecb13cb4b078da783f8faf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/3ebbd730b5c2cf5ce78bc1bf64071407fc6674b7",
-                "reference": "3ebbd730b5c2cf5ce78bc1bf64071407fc6674b7",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/d60bcdc46978357759ecb13cb4b078da783f8faf",
+                "reference": "d60bcdc46978357759ecb13cb4b078da783f8faf",
                 "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35"
             },
             "type": "library",
             "autoload": {
@@ -161,7 +167,11 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2015-10-04 16:44:32"
+            "support": {
+                "issues": "https://github.com/erusev/parsedown/issues",
+                "source": "https://github.com/erusev/parsedown/tree/1.7.x"
+            },
+            "time": "2019-03-17T17:19:46+00:00"
         },
         {
             "name": "erusev/parsedown-extra",
@@ -205,7 +215,7 @@
                 "parsedown",
                 "parser"
             ],
-            "time": "2015-11-01 10:19:22"
+            "time": "2015-11-01T10:19:22+00:00"
         },
         {
             "name": "romaninsh/mdcms",
@@ -247,7 +257,7 @@
             "keywords": [
                 "atk4"
             ],
-            "time": "2016-07-13 11:33:19"
+            "time": "2016-07-13T11:33:19+00:00"
         }
     ],
     "packages-dev": [],
@@ -260,5 +270,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
 }
